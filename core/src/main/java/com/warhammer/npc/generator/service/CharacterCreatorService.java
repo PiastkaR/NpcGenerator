@@ -11,8 +11,11 @@ import org.springframework.stereotype.Service;
 public class CharacterCreatorService {
 
     private final NameService nameService;
+    private final PhysicalCharacteristicsService physicalCharacteristicsService;
 
     public FullName getFullName(String userRace, String userGender) {
         return nameService.generateName(Race.valueOf(userRace), Gender.valueOf(userGender));
     }
+
+
 }

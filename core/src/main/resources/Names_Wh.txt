@@ -1,517 +1,520 @@
 Imiona elfa:
-new Name(950L, Bean,2,3);
-new Name(951L, Baine,2,3);
-new Name(952L, Baire,2,3);
-new Name(953L, Bar,2,3);
-new Name(954L, Bhir,2,3);
-new Name(955L, Breier,2,3);
-new Name(956L, Brior,2,3);
-new Name(957L, Brin,2,3);
-new Name(958L, Daen,2,3);
-new Name(959L, Daine,2,3);
-new Name(960L, Daire,2,3);
-new Name(961L, Dar,2,3);
-new Name(962L, Dhil,2,3);
-new Name(963L, Dhir,2,3);
-new Name(964L, Drel,2,3);
-new Name(965L, Drir,2,3);
-new Name(966L, Dror,2,3);
-new Name(967L, Eorl,2,3);
-new Name(968L, Eos,2,3);
-new Name(969L, Eoth,2,3);
-new Name(970L, Fil,2,3);
-new Name(971L, Fin,2,3);
-new Name(972L, Fir,2,3);
-new Name(973L, Hil,2,3);
-new Name(974L, Hin,2,3);
-new Name(975L, Hor,2,3);
-new Name(976L, Il,2,3);
-new Name(977L, In,2,3);
-new Name(978L, Ion,2,3);
-new Name(979L, Ir,2,3);
-new Name(980L, Is,2,3);
-new Name(981L, Ith,2,3);
-new Name(982L, Lael,2,3);
-new Name(983L, Laen,2,3);
-new Name(984L, Laer,2,3);
-new Name(985L, Laine,2,3);
-new Name(986L, Lan,2,3);
-new Name(987L, Las,2,3);
-new Name(988L, Len,2,3);
-new Name(989L, Les,2,3);
-new Name(990L, Lil,2,3);
-new Name(991L, Lin,2,3);
-new Name(992L, Lir,2,3);
-new Name(993L, Lis,2,3);
-new Name(994L, Lor,2,3);
-new Name(995L, Mael,2,3);
-new Name(996L, Maen,2,3);
-new Name(997L, Mair,2,3);
-new Name(998L, Main,2,3);
-new Name(999L, Mal,2,3);
-new Name(1000L, Mar,2,3);
-new Name(1001L, Mil,2,3);
-new Name(1002L, Min,2,3);
-new Name(1003L, Mir,2,3);
-new Name(1004L, Nael,2,3);
-new Name(1005L, Naen,2,3);
-new Name(1006L, Naer,2,3);
-new Name(1007L, Nail,2,3);
-new Name(1008L, Nair,2,3);
-new Name(1009L, Nal,2,3);
-new Name(1010L, Nan,2,3);
-new Name(1011L, Nar,2,3);
-new Name(1012L, Nean,2,3);
-new Name(1013L, Near,2,3);
-new Name(1014L, Nil,2,3);
-new Name(1015L, Nin,2,3);
-new Name(1016L, Nir,2,3);
-new Name(1017L, Nis,2,3);
-new Name(1018L, Ran,2,3);
-new Name(1019L, Rea,2,3);
-new Name(1020L, Rel,2,3);
-new Name(1021L, Ril,2,3);
-new Name(1022L, Riol,2,3);
-new Name(1023L, Rion,2,3);
-new Name(1024L, Rior,2,3);
-new Name(1025L, Riol,2,3);
-new Name(1026L, Riorn,2,3);
-new Name(1027L, Rir,2,3);
-new Name(1028L, Ryel,2,3);
-new Name(1029L, Taen,2,3);
-new Name(1030L, Tair,2,3);
-new Name(1031L, Tain,2,3);
-new Name(1032L, Than,2,3);
-new Name(1033L, Thar,2,3);
-new Name(1034L, Thel,2,3);
-new Name(1035L, Thil,2,3);
-new Name(1036L, Thir,2,3);
-new Name(1037L, Thin,2,3);
-new Name(1038L, Thril,2,3);
-new Name(1039L, Thrin,2,3);
-new Name(1040L, Thwe,2,3);
-new Name(1041L, Til,2,3);
-new Name(1042L, Tin,2,3);
-new Name(1043L, Tis,2,3);
-new Name(1044L, We,2,3);
-new Name(1045L, Yan,2,3);
+new Name2ndPart(950L, "Bean",Gender.MALE, Race.ELF);
+new Name2ndPart(951L, "Baine",Gender.MALE, Race.ELF);
+new Name2ndPart(952L, "Baire",Gender.MALE, Race.ELF);
+new Name2ndPart(953L, "Bar",Gender.MALE, Race.ELF);
+new Name2ndPart(954L, "Bhir",Gender.MALE, Race.ELF);
+new Name2ndPart(955L, "Breier",Gender.MALE, Race.ELF);
+new Name2ndPart(956L, "Brior",Gender.MALE, Race.ELF);
+new Name2ndPart(957L, "Brin",Gender.MALE, Race.ELF);
+new Name2ndPart(958L, "Daen",Gender.MALE, Race.ELF);
+new Name2ndPart(959L, "Daine",Gender.MALE, Race.ELF);
+new Name2ndPart(960L, "Daire",Gender.MALE, Race.ELF);
+new Name2ndPart(961L, "Dar",Gender.MALE, Race.ELF);
+new Name2ndPart(962L, "Dhil",Gender.MALE, Race.ELF);
+new Name2ndPart(963L, "Dhir",Gender.MALE, Race.ELF);
+new Name2ndPart(964L, "Drel",Gender.MALE, Race.ELF);
+new Name2ndPart(965L, "Drir",Gender.MALE, Race.ELF);
+new Name2ndPart(966L, "Dror",Gender.MALE, Race.ELF);
+new Name2ndPart(967L, "Eorl",Gender.MALE, Race.ELF);
+new Name2ndPart(968L, "Eos",Gender.MALE, Race.ELF);
+new Name2ndPart(969L, "Eoth",Gender.MALE, Race.ELF);
+new Name2ndPart(970L, "Fil",Gender.MALE, Race.ELF);
+new Name2ndPart(971L, "Fin",Gender.MALE, Race.ELF);
+new Name2ndPart(972L, "Fir",Gender.MALE, Race.ELF);
+new Name2ndPart(973L, "Hil",Gender.MALE, Race.ELF);
+new Name2ndPart(974L, "Hin",Gender.MALE, Race.ELF);
+new Name2ndPart(975L, "Hor",Gender.MALE, Race.ELF);
+new Name2ndPart(976L, "Il",Gender.MALE, Race.ELF);
+new Name2ndPart(977L, "In",Gender.MALE, Race.ELF);
+new Name2ndPart(978L, "Ion",Gender.MALE, Race.ELF);
+new Name2ndPart(979L, "Ir",Gender.MALE, Race.ELF);
+new Name2ndPart(980L, "Is",Gender.MALE, Race.ELF);
+new Name2ndPart(981L, "Ith",Gender.MALE, Race.ELF);
+new Name2ndPart(982L, "Lael",Gender.MALE, Race.ELF);
+new Name2ndPart(983L, "Laen",Gender.MALE, Race.ELF);
+new Name2ndPart(984L, "Laer",Gender.MALE, Race.ELF);
+new Name2ndPart(985L, "Laine",Gender.MALE, Race.ELF);
+new Name2ndPart(986L, "Lan",Gender.MALE, Race.ELF);
+new Name2ndPart(987L, "Las",Gender.MALE, Race.ELF);
+new Name2ndPart(988L, "Len",Gender.MALE, Race.ELF);
+new Name2ndPart(989L, "Les",Gender.MALE, Race.ELF);
+new Name2ndPart(990L, "Lil",Gender.MALE, Race.ELF);
+new Name2ndPart(991L, "Lin",Gender.MALE, Race.ELF);
+new Name2ndPart(992L, "Lir",Gender.MALE, Race.ELF);
+new Name2ndPart(993L, "Lis",Gender.MALE, Race.ELF);
+new Name2ndPart(994L, "Lor",Gender.MALE, Race.ELF);
+new Name2ndPart(995L, "Mael",Gender.MALE, Race.ELF);
+new Name2ndPart(996L, "Maen",Gender.MALE, Race.ELF);
+new Name2ndPart(997L, "Mair",Gender.MALE, Race.ELF);
+new Name2ndPart(998L, "Main",Gender.MALE, Race.ELF);
+new Name2ndPart(999L, "Mal",Gender.MALE, Race.ELF);
+new Name2ndPart(1000L," Mar",Gender.MALE, Race.ELF);
+new Name2ndPart(1001L," Mil",Gender.MALE, Race.ELF);
+new Name2ndPart(1002L," Min",Gender.MALE, Race.ELF);
+new Name2ndPart(1003L," Mir",Gender.MALE, Race.ELF);
+new Name2ndPart(1004L," Nael",Gender.MALE, Race.ELF);
+new Name2ndPart(1005L," Naen",Gender.MALE, Race.ELF);
+new Name2ndPart(1006L," Naer",Gender.MALE, Race.ELF);
+new Name2ndPart(1007L," Nail",Gender.MALE, Race.ELF);
+new Name2ndPart(1008L," Nair",Gender.MALE, Race.ELF);
+new Name2ndPart(1009L," Nal",Gender.MALE, Race.ELF);
+new Name2ndPart(1010L," Nan",Gender.MALE, Race.ELF);
+new Name2ndPart(1011L," Nar",Gender.MALE, Race.ELF);
+new Name2ndPart(1012L," Nean",Gender.MALE, Race.ELF);
+new Name2ndPart(1013L," Near",Gender.MALE, Race.ELF);
+new Name2ndPart(1014L," Nil",Gender.MALE, Race.ELF);
+new Name2ndPart(1015L," Nin",Gender.MALE, Race.ELF);
+new Name2ndPart(1016L," Nir",Gender.MALE, Race.ELF);
+new Name2ndPart(1017L," Nis",Gender.MALE, Race.ELF);
+new Name2ndPart(1018L," Ran",Gender.MALE, Race.ELF);
+new Name2ndPart(1019L," Rea",Gender.MALE, Race.ELF);
+new Name2ndPart(1020L," Rel",Gender.MALE, Race.ELF);
+new Name2ndPart(1021L," Ril",Gender.MALE, Race.ELF);
+new Name2ndPart(1022L," Riol",Gender.MALE, Race.ELF);
+new Name2ndPart(1023L," Rion",Gender.MALE, Race.ELF);
+new Name2ndPart(1024L," Rior",Gender.MALE, Race.ELF);
+new Name2ndPart(1025L," Riol",Gender.MALE, Race.ELF);
+new Name2ndPart(1026L," Riorn",Gender.MALE, Race.ELF);
+new Name2ndPart(1027L," Rir",Gender.MALE, Race.ELF);
+new Name2ndPart(1028L," Ryel",Gender.MALE, Race.ELF);
+new Name2ndPart(1029L," Taen",Gender.MALE, Race.ELF);
+new Name2ndPart(1030L," Tair",Gender.MALE, Race.ELF);
+new Name2ndPart(1031L," Tain",Gender.MALE, Race.ELF);
+new Name2ndPart(1032L," Than",Gender.MALE, Race.ELF);
+new Name2ndPart(1033L," Thar",Gender.MALE, Race.ELF);
+new Name2ndPart(1034L," Thel",Gender.MALE, Race.ELF);
+new Name2ndPart(1035L," Thil",Gender.MALE, Race.ELF);
+new Name2ndPart(1036L," Thir",Gender.MALE, Race.ELF);
+new Name2ndPart(1037L," Thin",Gender.MALE, Race.ELF);
+new Name2ndPart(1038L," Thril",Gender.MALE, Race.ELF);
+new Name2ndPart(1039L," Thrin",Gender.MALE, Race.ELF);
+new Name2ndPart(1040L," Thwe",Gender.MALE, Race.ELF);
+new Name2ndPart(1041L," Til",Gender.MALE, Race.ELF);
+new Name2ndPart(1042L," Tin",Gender.MALE, Race.ELF);
+new Name2ndPart(1043L," Tis",Gender.MALE, Race.ELF);
+new Name2ndPart(1044L," We",Gender.MALE, Race.ELF);
+new Name2ndPart(1045L," Yan",Gender.MALE, Race.ELF);
 
 Imiona Niziołków:
-new Name(1046L,Bag,2,1);
-new Name(1047L,Balf,2,1);
-new Name(1048L,Berc,2,1);
-new Name(1049L,Bill,2,1);
-new Name(1050L,Bobb,2,1);
-new Name(1051L,Bodg,2,1);
-new Name(1052L,Bog,2,1);
-new Name(1053L,Bom,2,1);
-new Name(1054L,Bonm,2,1);
-new Name(1055L,Brog,2,1);
-new Name(1056L,Bulc,2,1);
-new Name(1057L,Bull,2,1);
-new Name(1058L,Bust,2,1);
-new Name(1059L,Cam,2,1);
-new Name(1060L,Cao,2,1);
-new Name(1061L,Ced,2,1);
-new Name(1062L,Chund,2,1);
-new Name(1063L,Clog,2,1);
-new Name(1064L,Colf,2,1);
-new Name(1065L,Cob,2,1);
-new Name(1066L,Cog,2,1);
-new Name(1067L,Crum,2,1);
-new Name(1068L,Crump,2,1);
-new Name(1069L,Curl,2,1);
-new Name(1070L,Dod,2,1);
-new Name(1071L,Dog,2,1);
-new Name(1072L,Dott,2,1);
-new Name(1073L,Dram,2,1);
-new Name(1074L,Drub,2,1);
-new Name(1075L,Drog,2,1);
-new Name(1076L,Dron,2,1);
-new Name(1077L,Durc,2,1);
-new Name(1078L,Elm,2,1);
-new Name(1079L,Enn,2,1);
-new Name(1080L,Ermin,2,1);
-new Name(1081L,Ethan,2,1);
-new Name(1082L,Falc,2,1);
-new Name(1083L,Fald,2,1);
-new Name(1084L,Falm,2,1);
-new Name(1085L,Far,2,1);
-new Name(1086L,Fild,2,1);
-new Name(1087L,Flac,2,1);
-new Name(1088L,Fogg,2,1);
-new Name(1089L,Frit,2,1);
-new Name(1090L,Ful,2,1);
-new Name(1091L,Func,2,1);
-new Name(1092L,Gaff,2,1);
-new Name(1093L,Gald,2,1);
-new Name(1094L,Gamm,2,1);
-new Name(1095L,Gert,2,1);
-new Name(1096L,Giff,2,1);
-new Name(1097L,Lud,2,1);
-new Name(1098L,Lurc,2,1);
-new Name(1099L,Mad,2,1);
-new Name(1100L,Mag,2,1);
-new Name(1101L,Man,2,1);
-new Name(1102L,May,2,1);
-new Name(1103L,Mer,2,1);
-new Name(1104L,Mul,2,1);
-new Name(1105L,Murc,2,1);
-new Name(1106L,Murd,2,1);
-new Name(1107L,Nag,2,1);
-new Name(1108L,Nell,2,1);
-new Name(1109L,Nobb,2,1);
-new Name(1110L,Od,2,1);
-new Name(1111L,Og,2,1);
-new Name(1112L,Old,2,1);
-new Name(1113L,Pipp,2,1);
-new Name(1114L,Podd,2,1);
-new Name(1115L,Porc,2,1);
-new Name(1116L,Riff,2,1);
-new Name(1117L,Rip,2,1);
-new Name(1118L,Rob,2,1);
-new Name(1119L,Sam,2,1);
-new Name(1120L,Supp,2,1);
-new Name(1121L,Taff,2,1);
-new Name(1122L,Talb,2,1);
-new Name(1123L,Talc,2,1);
-new Name(1124L,Tay,2,1);
-new Name(1125L,Tom,2,1);
-new Name(1126L,Wald,2,1);
-new Name(1127L,Watt,2,1);
-new Name(1128L,Will,2,1);
+new Name(1046L, "Bag",Gender.BOTH, Race.HALFLING);
+new Name(1047L, "Balf",Gender.BOTH, Race.HALFLING);
+new Name(1048L, "Berc",Gender.BOTH, Race.HALFLING);
+new Name(1049L, "Bill",Gender.BOTH, Race.HALFLING);
+new Name(1050L, "Bobb",Gender.BOTH, Race.HALFLING);
+new Name(1051L, "Bodg",Gender.BOTH, Race.HALFLING);
+new Name(1052L, "Bog",Gender.BOTH, Race.HALFLING);
+new Name(1053L, "Bom",Gender.BOTH, Race.HALFLING);
+new Name(1054L, "Bonm",Gender.BOTH, Race.HALFLING);
+new Name(1055L, "Brog",Gender.BOTH, Race.HALFLING);
+new Name(1056L, "Bulc",Gender.BOTH, Race.HALFLING);
+new Name(1057L, "Bull",Gender.BOTH, Race.HALFLING);
+new Name(1058L, "Bust",Gender.BOTH, Race.HALFLING);
+new Name(1059L, "Cam",Gender.BOTH, Race.HALFLING);
+new Name(1060L, "Cao",Gender.BOTH, Race.HALFLING);
+new Name(1061L, "Ced",Gender.BOTH, Race.HALFLING);
+new Name(1062L, "Chund",Gender.BOTH, Race.HALFLING);
+new Name(1063L, "Clog",Gender.BOTH, Race.HALFLING);
+new Name(1064L, "Colf",Gender.BOTH, Race.HALFLING);
+new Name(1065L, "Cob",Gender.BOTH, Race.HALFLING);
+new Name(1066L, "Cog",Gender.BOTH, Race.HALFLING);
+new Name(1067L, "Crum",Gender.BOTH, Race.HALFLING);
+new Name(1068L, "Crump",Gender.BOTH, Race.HALFLING);
+new Name(1069L, "Curl",Gender.BOTH, Race.HALFLING);
+new Name(1070L, "Dod",Gender.BOTH, Race.HALFLING);
+new Name(1071L, "Dog",Gender.BOTH, Race.HALFLING);
+new Name(1072L, "Dott",Gender.BOTH, Race.HALFLING);
+new Name(1073L, "Dram",Gender.BOTH, Race.HALFLING);
+new Name(1074L, "Drub",Gender.BOTH, Race.HALFLING);
+new Name(1075L, "Drog",Gender.BOTH, Race.HALFLING);
+new Name(1076L, "Dron",Gender.BOTH, Race.HALFLING);
+new Name(1077L, "Durc",Gender.BOTH, Race.HALFLING);
+new Name(1078L, "Elm",Gender.BOTH, Race.HALFLING);
+new Name(1079L, "Enn",Gender.BOTH, Race.HALFLING);
+new Name(1080L, "Ermin",Gender.BOTH, Race.HALFLING);
+new Name(1081L, "Ethan",Gender.BOTH, Race.HALFLING);
+new Name(1082L, "Falc",Gender.BOTH, Race.HALFLING);
+new Name(1083L, "Fald",Gender.BOTH, Race.HALFLING);
+new Name(1084L, "Falm",Gender.BOTH, Race.HALFLING);
+new Name(1085L, "Far",Gender.BOTH, Race.HALFLING);
+new Name(1086L, "Fild",Gender.BOTH, Race.HALFLING);
+new Name(1087L, "Flac",Gender.BOTH, Race.HALFLING);
+new Name(1088L, "Fogg",Gender.BOTH, Race.HALFLING);
+new Name(1089L, "Frit",Gender.BOTH, Race.HALFLING);
+new Name(1090L, "Ful",Gender.BOTH, Race.HALFLING);
+new Name(1091L, "Func",Gender.BOTH, Race.HALFLING);
+new Name(1092L, "Gaff",Gender.BOTH, Race.HALFLING);
+new Name(1093L, "Gald",Gender.BOTH, Race.HALFLING);
+new Name(1094L, "Gamm",Gender.BOTH, Race.HALFLING);
+new Name(1095L, "Gert",Gender.BOTH, Race.HALFLING);
+new Name(1096L, "Giff",Gender.BOTH, Race.HALFLING);
+new Name(1097L, "Lud",Gender.BOTH, Race.HALFLING);
+new Name(1098L, "Lurc",Gender.BOTH, Race.HALFLING);
+new Name(1099L, "Mad",Gender.BOTH, Race.HALFLING);
+new Name(1100L, "Mag",Gender.BOTH, Race.HALFLING);
+new Name(1101L, "Man",Gender.BOTH, Race.HALFLING);
+new Name(1102L, "May",Gender.BOTH, Race.HALFLING);
+new Name(1103L, "Mer",Gender.BOTH, Race.HALFLING);
+new Name(1104L, "Mul",Gender.BOTH, Race.HALFLING);
+new Name(1105L, "Murc",Gender.BOTH, Race.HALFLING);
+new Name(1106L, "Murd",Gender.BOTH, Race.HALFLING);
+new Name(1107L, "Nag",Gender.BOTH, Race.HALFLING);
+new Name(1108L, "Nell",Gender.BOTH, Race.HALFLING);
+new Name(1109L, "Nobb",Gender.BOTH, Race.HALFLING);
+new Name(1110L, "Od",Gender.BOTH, Race.HALFLING);
+new Name(1111L, "Og",Gender.BOTH, Race.HALFLING);
+new Name(1112L, "Old",Gender.BOTH, Race.HALFLING);
+new Name(1113L, "Pipp",Gender.BOTH, Race.HALFLING);
+new Name(1114L, "Podd",Gender.BOTH, Race.HALFLING);
+new Name(1115L, "Porc",Gender.BOTH, Race.HALFLING);
+new Name(1116L, "Riff",Gender.BOTH, Race.HALFLING);
+new Name(1117L, "Rip",Gender.BOTH, Race.HALFLING);
+new Name(1118L, "Rob",Gender.BOTH, Race.HALFLING);
+new Name(1119L, "Sam",Gender.BOTH, Race.HALFLING);
+new Name(1120L, "Supp",Gender.BOTH, Race.HALFLING);
+new Name(1121L, "Taff",Gender.BOTH, Race.HALFLING);
+new Name(1122L, "Talb",Gender.BOTH, Race.HALFLING);
+new Name(1123L, "Talc",Gender.BOTH, Race.HALFLING);
+new Name(1124L, "Tay",Gender.BOTH, Race.HALFLING);
+new Name(1125L, "Tom",Gender.BOTH, Race.HALFLING);
+new Name(1126L, "Wald",Gender.BOTH, Race.HALFLING);
+new Name(1127L, "Watt",Gender.BOTH, Race.HALFLING);
+new Name(1128L, "Will",Gender.BOTH, Race.HALFLING);
 
 Imiona kobiety niziołkowej:
-new Name(1129L, A,1,1);
-new Name(1130L, Adell,1,1);
-new Name(1131L, Alot,1,1);
-new Name(1132L, Apple,1,1);
-new Name(1133L, Bell,1,1);
-new Name(1134L, Berry,1,1);
-new Name(1135L, Eana,1,1);
-new Name(1136L, Ella,1,1);
-new Name(1137L, Era,1,1);
-new Name(1138L, Et,1,1);
-new Name(1139L, Ia,1,1);
-new Name(1140L, Flower,1,1);
-new Name(1141L, Lotta,1,1);
-new Name(1142L, Petal,1,1);
-new Name(1143L, Riella,1,1);
-new Name(1144L, Sweet,1,1);
-new Name(1145L, Trude,1,1);
-new Name(1146L, Rose,1,1);
-new Name(1147L, Willow,1,1);
-new Name(1148L, Y,1,1);
+new Name2ndPart(1129L, "A",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1130L, "Adell",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1131L, "Alot",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1132L, "Apple",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1133L, "Bell",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1134L, "Berry",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1135L, "Eana",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1136L, "Ella",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1137L, "Era",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1138L, "Et",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1139L, "Ia",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1140L, "Flower",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1141L, "Lotta",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1142L, "Petal",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1143L, "Riella",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1144L, "Sweet",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1145L, "Trude",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1146L, "Rose",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1147L, "Willow",Gender.FEMALE, Race.HALFLING);
+new Name2ndPart(1148L, "Y",Gender.FEMALE, Race.HALFLING);
 
 Niziołek facet:
-new Name( 1149L, Belly,0,1);
-new Name( 1150L, Er,0,1);
-new Name( 1151L, Fast,0,1);
-new Name( 1152L, In,0,1);
-new Name( 1153L, It,0,1);
-new Name( 1154L, Mutch,0,1);
-new Name( 1155L, O,0,1);
-new Name( 1156L, Odoc,0,1);
-new Name( 1157L, Riadoc,0,1);
-new Name( 1158L, Regar,0,1);
-new Name( 1159L, Wick,0,1);
-new Name( 1160L, Wise,0,1);
-new Name( 1161L, Wit,0,1);
-new Name( 1162L, Y,0,1);
+new Name2ndPart( 1149L, "Belly",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1150L, "Er",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1151L, "Fast",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1152L, "In",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1153L, "It",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1154L, "Mutch",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1155L, "O",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1156L, "Odoc",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1157L, "Riadoc",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1158L, "Regar",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1159L, "Wick",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1160L, "Wise",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1161L, "Wit",Gender.MALE, Race.HALFLING);
+new Name2ndPart( 1162L, "Y",Gender.MALE, Race.HALFLING);
 
-Przydomek Miziołka:
-new Nickname(1L,Altannik,1);
-new Nickname(2L,Badylarz,1);
-new Nickname(3L,Beczułka,1);
-new Nickname(4L,Bielinek,1);
-new Nickname(5L,Brzeżek,1);
-new Nickname(6L,Brzuchacz,1);
-new Nickname(7L,Byliniak,1);
-new Nickname(8L,Cichobieg,1);
-new Nickname(9L,Cierniak,1);
-new Nickname(10L,Długonos,1);
-new Nickname(11L,Długouch,1);
-new Nickname(12L,Drapak,1);
-new Nickname(13L,Drewniak,1);
-new Nickname(14L,Dudziarz,1);
-new Nickname(15L,Dziwaczek,1);
-new Nickname(16L,Figlarz,1);
-new Nickname(17L,Futrzak,1);
-new Nickname(18L,Glistnik,1);
-new Nickname(19L,Głuptak,1);
-new Nickname(20L,Groszek,1);
-new Nickname(21L,Grzechotek,1);
-new Nickname(22L,Grzwacz,1);
-new Nickname(23L,Gwizdawek,1);
-new Nickname(24L,Iglarz,1);
-new Nickname(25L,Jabłecznik,1);
-new Nickname(26L,Jagódka,1);
-new Nickname(27L,Jaskółka,1);
-new Nickname(28L,Kaczeniec,1);
-new Nickname(29L,Kasztanek,1);
-new Nickname(30L,Kędziorek,1);
-new Nickname(31L,Kociak,1);
-new Nickname(32L,Kociołek,1);
-new Nickname(33L,Kolcownik,1);
-new Nickname(34L,Koniczynka,1);
-new Nickname(35L,Koralik,1);
-new Nickname(36L,Kosturek,1);
-new Nickname(37L,Kotlarz,1);
-new Nickname(38L,Kret,1);
-new Nickname(39L,Kręciołek,1);
-new Nickname(40L,Kruczek,1);
-new Nickname(41L,Krupnik,1);
-new Nickname(42L,Kulawik,1);
-new Nickname(43L,Kwietnik,1);
-new Nickname(44L,Łazik,1);
-new Nickname(45L,Łąkołaz,1);
-new Nickname(46L,Łodyżek,1);
-new Nickname(47L,Marudnik,1);
-new Nickname(48L,Mieszek,1);
-new Nickname(49L,Młynek,1);
-new Nickname(50L,Morwa,1);
-new Nickname(51L,Mroczek,1);
-new Nickname(52L,Niemysł,1);
-new Nickname(53L,Okruszek,1);
-new Nickname(54L,Opijus,1);
-new Nickname(55L,Otoczak,1);
-new Nickname(56L,Owsiannik,1);
-new Nickname(57L,Pagórek,1);
-new Nickname(58L,Paluch,1);
-new Nickname(59L,Piaszczak,1);
-new Nickname(60L,Piwniak,1);
-new Nickname(61L,Piwosz,1);
-new Nickname(62L,Podpłomyk,1);
-new Nickname(63L,Popiołek,1);
-new Nickname(64L,Przebiśnieg,1);
-new Nickname(65L,Radośnik,1);
-new Nickname(66L,Robaczek,1);
-new Nickname(67L,Rogaś,1);
-new Nickname(68L,Ryjek,1);
-new Nickname(69L,Rzęsawik,1);
-new Nickname(70L,Sknerus,1);
-new Nickname(71L,Skoblik,1);
-new Nickname(72L,Skórkniak,1);
-new Nickname(73L,Słomnik,1);
-new Nickname(74L,Stoczek,1);
-new Nickname(75L,Stopowiąż,1);
-new Nickname(76L,Stopowłaz,1);
-new Nickname(77L,Sucharek,1);
-new Nickname(78L,Szarak,1);
-new Nickname(79L,Szarotek,1);
-new Nickname(80L,Śnieżynka,1);
-new Nickname(81L,Trzęsawiec,1);
-new Nickname(82L,Warkoczycz,1);
-new Nickname(83L,Wąsacz,1);
-new Nickname(84L,Wąwoźnik,1);
-new Nickname(85L,Wesołek,1);
-new Nickname(86L,Węgielek,1);
-new Nickname(87L,Wiatrownik,1);
-new Nickname(88L,Wierzbek,1);
-new Nickname(89L,Wietrzyk,1);
-new Nickname(90L,Wierzbek,1);
-new Nickname(91L,Witrzyk,1);
-new Nickname(92L,Wilczomlecz,1);
-new Nickname(93L,Wilkowyj,1);
-new Nickname(94L,Wodniak,1);
-new Nickname(95L,Wstążka,1);
-new Nickname(96L,Zagórnik,1);
-new Nickname(97L,Zawijas,1);
-new Nickname(98L,Zieleniak,1);
-new Nickname(99L,Złocisz,1);
-new Nickname(100L,Żarnik,1);
-new Nickname(101L,Żniwiarz,1);
+Przydomek Niziołka:
+new Nickname(1L, "Altannik," Race.HALFLING);
+new Nickname(2L, "Badylarz",Race.HALFLING);
+new Nickname(3L, "Beczułka",Race.HALFLING);
+new Nickname(4L, "Bielinek",Race.HALFLING);
+new Nickname(5L, "Brzeżek",Race.HALFLING);
+new Nickname(6L, "Brzuchacz",Race.HALFLING);
+new Nickname(7L, "Byliniak",Race.HALFLING);
+new Nickname(8L, "Cichobieg",Race.HALFLING);
+new Nickname(9L, "Cierniak",Race.HALFLING);
+new Nickname(10L,"Długonos",Race.HALFLING);
+new Nickname(11L,"Długouch",Race.HALFLING);
+new Nickname(12L,"Drapak",Race.HALFLING);
+new Nickname(13L,"Drewniak",Race.HALFLING);
+new Nickname(14L,"Dudziarz",Race.HALFLING);
+new Nickname(15L,"Dziwaczek",Race.HALFLING);
+new Nickname(16L,"Figlarz",Race.HALFLING);
+new Nickname(17L,"Futrzak",Race.HALFLING);
+new Nickname(18L,"Glistnik",Race.HALFLING);
+new Nickname(19L,"Głuptak",Race.HALFLING);
+new Nickname(20L,"Groszek",Race.HALFLING);
+new Nickname(21L,"Grzechotek",Race.HALFLING);
+new Nickname(22L,"Grzwacz",Race.HALFLING);
+new Nickname(23L,"Gwizdawek",Race.HALFLING);
+new Nickname(24L,"Iglarz",Race.HALFLING);
+new Nickname(25L,"Jabłecznik",Race.HALFLING);
+new Nickname(26L,"Jagódka",Race.HALFLING);
+new Nickname(27L,"Jaskółka",Race.HALFLING);
+new Nickname(28L,"Kaczeniec",Race.HALFLING);
+new Nickname(29L,"Kasztanek",Race.HALFLING);
+new Nickname(30L,"Kędziorek",Race.HALFLING);
+new Nickname(31L,"Kociak",Race.HALFLING);
+new Nickname(32L,"Kociołek",Race.HALFLING);
+new Nickname(33L,"Kolcownik",Race.HALFLING);
+new Nickname(34L,"Koniczynka",Race.HALFLING);
+new Nickname(35L,"Koralik",Race.HALFLING);
+new Nickname(36L,"Kosturek",Race.HALFLING);
+new Nickname(37L,"Kotlarz",Race.HALFLING);
+new Nickname(38L,"Kret",Race.HALFLING);
+new Nickname(39L,"Kręciołek",Race.HALFLING);
+new Nickname(40L,"Kruczek",Race.HALFLING);
+new Nickname(41L,"Krupnik",Race.HALFLING);
+new Nickname(42L,"Kulawik",Race.HALFLING);
+new Nickname(43L,"Kwietnik",Race.HALFLING);
+new Nickname(44L,"Łazik",Race.HALFLING);
+new Nickname(45L,"Łąkołaz",Race.HALFLING);
+new Nickname(46L,"Łodyżek",Race.HALFLING);
+new Nickname(47L,"Marudnik",Race.HALFLING);
+new Nickname(48L,"Mieszek",Race.HALFLING);
+new Nickname(49L,"Młynek",Race.HALFLING);
+new Nickname(50L,"Morwa",Race.HALFLING);
+new Nickname(51L,"Mroczek",Race.HALFLING);
+new Nickname(52L,"Niemysł",Race.HALFLING);
+new Nickname(53L,"Okruszek",Race.HALFLING);
+new Nickname(54L,"Opijus",Race.HALFLING);
+new Nickname(55L,"Otoczak",Race.HALFLING);
+new Nickname(56L,"Owsiannik",Race.HALFLING);
+new Nickname(57L,"Pagórek",Race.HALFLING);
+new Nickname(58L,"Paluch",Race.HALFLING);
+new Nickname(59L,"Piaszczak",Race.HALFLING);
+new Nickname(60L,"Piwniak",Race.HALFLING);
+new Nickname(61L,"Piwosz",Race.HALFLING);
+new Nickname(62L,"Podpłomyk",Race.HALFLING);
+new Nickname(63L,"Popiołek",Race.HALFLING);
+new Nickname(64L,"Przebiśnieg",Race.HALFLING);
+new Nickname(65L,"Radośnik",Race.HALFLING);
+new Nickname(66L,"Robaczek",Race.HALFLING);
+new Nickname(67L,"Rogaś",Race.HALFLING);
+new Nickname(68L,"Ryjek",Race.HALFLING);
+new Nickname(69L,"Rzęsawik",Race.HALFLING);
+new Nickname(70L,"Sknerus",Race.HALFLING);
+new Nickname(71L,"Skoblik",Race.HALFLING);
+new Nickname(72L,"Skórkniak",Race.HALFLING);
+new Nickname(73L,"Słomnik",Race.HALFLING);
+new Nickname(74L,"Stoczek",Race.HALFLING);
+new Nickname(75L,"Stopowiąż",Race.HALFLING);
+new Nickname(76L,"Stopowłaz",Race.HALFLING);
+new Nickname(77L,"Sucharek",Race.HALFLING);
+new Nickname(78L,"Szarak",Race.HALFLING);
+new Nickname(79L,"Szarotek",Race.HALFLING);
+new Nickname(80L,"Śnieżynka",Race.HALFLING);
+new Nickname(81L,"Trzęsawiec",Race.HALFLING);
+new Nickname(82L,"Warkoczycz",Race.HALFLING);
+new Nickname(83L,"Wąsacz",Race.HALFLING);
+new Nickname(84L,"Wąwoźnik",Race.HALFLING);
+new Nickname(85L,"Wesołek",Race.HALFLING);
+new Nickname(86L,"Węgielek",Race.HALFLING);
+new Nickname(87L,"Wiatrownik",Race.HALFLING);
+new Nickname(88L,"Wierzbek",Race.HALFLING);
+new Nickname(89L,"Wietrzyk",Race.HALFLING);
+new Nickname(90L,"Wierzbek",Race.HALFLING);
+new Nickname(91L,"Witrzyk",Race.HALFLING);
+new Nickname(92L,"Wilczomlecz",Race.HALFLING);
+new Nickname(93L,"Wilkowyj",Race.HALFLING);
+new Nickname(94L,"Wodniak",Race.HALFLING);
+new Nickname(95L,"Wstążka",Race.HALFLING);
+new Nickname(96L,"Zagórnik",Race.HALFLING);
+new Nickname(97L,"Zawijas",Race.HALFLING);
+new Nickname(98L,"Zieleniak",Race.HALFLING);
+new Nickname(99L,"Złocisz",Race.HALFLING);
+new Nickname(100L",Żarnik",Race.HALFLING);
+new Nickname(101L",Żniwiarz",Race.HALFLING);
 
 Miejsce urodzenia:
-Averland
-Hochland
-Middenland
-Nordland
-Ostenmark
-Ostland
-Reikland
-Stirland
-Talabekland
-Wissenland
+"Averland"
+"Hochland"
+"Middenland"
+"Nordland"
+"Ostenmark"
+"Ostland"
+"Reikland"
+"Stirland"
+"Talabekland"
+"Wissenland"
 Nordland:
-Salzenmund
-Beeckehhoven
-Dietrishafen
-Grafenrich
-Luftberg
-Oldenlitz
-Wilhelmskoog
+"Nordland, Salzenmund"
+"Nordland,Beeckehhoven"
+"Nordland, Dietrishafen"
+"Nordland, Grafenrich"
+"Nordland, Luftberg"
+"Nordland, Oldenlitz"
+"Nordland, Wilhelmskoog"
 Stirland:
-Wurtbad
-Drakenhof
-Waldenhof
-Eschedorf
-Furtzhausen
-Wurstheim
+"Stirland, Wurtbad"
+"Stirland, Drakenhof"
+"Stirland, Waldenhof"
+"Stirland, Eschedorf"
+"Stirland, Furtzhausen"
+"Stirland, Wurstheim"
 Averland:
-Averheim
-Grenztstadt
-Hochsleben
-Loningsbruck
-Wuppertal
-Agbeiten
-Braundorf
-Kotzenheim
-Zecher
-Ostermarl"
-Bechafen
-Eisental
-Bissendorf
-Dorna
-Fortenhaf
-Heffengen
+"Averland, Averheim"
+"Averland, Grenztstadt"
+"Averland, Hochsleben"
+"Averland, Loningsbruck"
+"Averland, Wuppertal"
+"Averland, Agbeiten"
+"Averland, Braundorf"
+"Averland, Kotzenheim"
+"Averland, Zecher"
+
+Ostermark:
+"Ostermark ,Bechafen"
+"Ostermark ,Eisental"
+"Ostermark ,Bissendorf"
+"Ostermark ,Dorna"
+"Ostermark ,Fortenhaf"
+"Ostermark ,Heffengen"
 Talabeckland:
-Talabheim
-Bek
-Garndorf
-Rangenhof
-Wellenborn
-Zurin
-Hochland:
-Hergig
-Breder
-Krundenwald
-Bergendorf
-Esk
-Gruyden
-Koerin
-Ostland:
-Wolfenburg
-Ferlangen
-Vandegart
-Boven
-Lubrecht
-Samlhoff
-Zundap
-Wiessenburg
-Grissenwald
-Pfeildorf
-AMbosstein
-Koningsdorf
-Steingart
-Middenland:
-Middenheim
-Delberz
-Norderingen
-Holzbec
-Immelscheld
-Protzstock
-Sokh
+"Talabeckland, Talabheim"
+"Talabeckland, Bek"
+"Talabeckland, Garndorf"
+"Talabeckland, Rangenhof"
+"Talabeckland, Wellenborn"
+"Talabeckland, Zurin"
+
+Hochland, :
+"Hochland, Hergig"
+"Hochland, Breder"
+"Hochland, Krundenwald"
+"Hochland, Bergendorf"
+"Hochland, Esk"
+"Hochland, Gruyden"
+"Hochland, Koerin"
+Ostland, :
+"Ostland, Wolfenburg"
+"Ostland, Ferlangen"
+"Ostland, Vandegart"
+"Ostland, Boven"
+"Ostland, Lubrecht"
+"Ostland, Samlhoff"
+"Ostland, Zundap"
+"Ostland, Wiessenburg"
+"Ostland, Grissenwald"
+"Ostland, Pfeildorf"
+"Ostland, AMbosstein"
+"Ostland, Koningsdorf"
+"Ostland, Steingart"
+Middenland, :
+"Middenland, Middenheim"
+"Middenland, Delberz"
+"Middenland, Norderingen"
+"Middenland, Holzbec"
+"Middenland, Immelscheld"
+"Middenland, Protzstock"
+"Middenland, Sokh"
 Reikland:
-Altfdorf
-Nuln
-Bogenhafen
-Grunburg
-Halheim
-Misthausen
-Teufelfeuer
-Weissbruck
+"Reikland, Altfdorf"
+"Reikland, Nuln"
+"Reikland, Bogenhafen"
+"Reikland, Grunburg"
+"Reikland, Halheim"
+"Reikland, Misthausen"
+"Reikland, Teufelfeuer"
+"Reikland, Weissbruck"
+
 Przydomki Elfickie:
-new Nickname(102L, Białowłosy,3);
-new Nickname(103L, Gwiazda Zaranna,3);
-new Nickname(104L, Lśniący Grot,3);
-new Nickname(105L, Błękit Pióra,3);
-new Nickname(106L, Gwiezdne Oko,3);
-new Nickname(107L, Lśniący Księżyc,3);
-new Nickname(108L, Błękit Skrzydła,3);
-new Nickname(109L, Gwiezdny Ogień,3);
-new Nickname(110L, Mądre Serce,3);
-new Nickname(111L, Błysk Klingi,3);
-new Nickname(112L, Gwiezdny Pył,3);
-new Nickname(113L, Mądrość Klanu,3);
-new Nickname(114L, BłyskPioruna,3);
-new Nickname(115L, Jasna Gwiazda,3);
-new Nickname(116L, Mężne Serce,3);
-new Nickname(117L, Błysk Stali,3);
-new Nickname(118L, Jasnooki,3);
-new Nickname(119L, Młody Liść,3);
-new Nickname(120L, Bystrooki,3);
-new Nickname(121L, Jastrzębie Oko,3);
-new Nickname(122L, Moc Dębu,3);
-new Nickname(123L, Ciemnowłosy,3);
-new Nickname(124L, Jaśniejący,3);
-new Nickname(125L, Moc Korzeni,3);
-new Nickname(126L, Cienista Dolina,3);
-new Nickname(127L, Jeleni Skok,3);
-new Nickname(128L, Moc Różdzki,3);
-new Nickname(129L, Czarne Drzewo,3);
-new Nickname(130L, Kieł Wilka,3);
-new Nickname(131L, Morska Fala,3);
-new Nickname(132L, Czarny Kurhan,3);
-new Nickname(133L, Korona słońca,3);
-new Nickname(134L, Morska Piana,3);
-new Nickname(135L, Czysty Zdrój,3);
-new Nickname(136L, Krzyk Puchacza,3);
-new Nickname(137L, Mroczne Ostrze,3);
-new Nickname(138L, Dech Lasu,3);
-new Nickname(139L, Księzycowy Blask,3);
-new Nickname(140L, Nocny Łowca,3);
-new Nickname(141L, Dębowy Konar,3);
-new Nickname(142L, Księżycowy Mrok,3);
-new Nickname(143L, Oko Wilka,3);
-new Nickname(144L, Dotyk Nocy,3);
-new Nickname(145L, Kwiat Młodości,3);
-new Nickname(146L, Oko Wizji,3);
-new Nickname(147L, Dzikie Serce,3);
-new Nickname(148L, Lot Sokoła,3);
-new Nickname(149L, Oko Zieleni,3);
-new Nickname(150L, Gwiazda Wieczorna,3);
-new Nickname(151L, Lśniąca Góra,3);
-new Nickname(152L, Opadający Liść,3);
-new Nickname(153L, Opoka Siły,3);
-new Nickname(154L, Orzeł Mroku,3);
-new Nickname(155L, Ostre Ostrze,3);
-new Nickname(156L, Ostry Grot,3);
-new Nickname(157L, Pajęcza Nić,3);
-new Nickname(158L, Patrzący W Dal,3);
-new Nickname(159L, Podmuch Wichury,3);
-new Nickname(160L, Poranna Rosa,3);
-new Nickname(161L, Półksięzyc,3);
-new Nickname(162L, Promyk Słońca,3);
-new Nickname(163L, Przyjaciel Zwierząt,3);
-new Nickname(164L, Radosne Serce,3);
-new Nickname(165L, Rózany Kwiat,3);
-new Nickname(166L, Ryk Burzy,3);
-new Nickname(167L, Silnoręki,3);
-new Nickname(168L, Smoczy Brat,3);
-new Nickname(169L, Smukłe Ostrze,3);
-new Nickname(170L, Smukły Grot,3);
-new Nickname(171L, Spokój Fal,3);
-new Nickname(172L, Spokój Kamienia,3);
-new Nickname(173L, Spokój Lasu,3);
-new Nickname(174L, Srebrnowłosy,3);
-new Nickname(175L, Srebrny Liść,3);
-new Nickname(176L, Srebrny Świt,3);
-new Nickname(177L, Strzała Mocy,3);
-new Nickname(178L, Szybki Grot,3);
-new Nickname(179L, Szybkie Ostrze,3);
-new Nickname(180L, Śnieżny Puch,3);
-new Nickname(181L, Śpiew Dzikości,3);
-new Nickname(182L, Śpiew Wiatru,3);
-new Nickname(183L, Ukryty W Cieniu,3);
-new Nickname(184L, Uśmiech Wiatru,3);
-new Nickname(185L, Wartki Strumyk,3);
-new Nickname(186L, Wędrowiec,3);
-new Nickname(187L, Wiatr Wśród Traw,3);
-new Nickname(188L, Wiatroskrzydły,3);
-new Nickname(189L, Wieża Mądrości,3);
-new Nickname(190L, Wodny Wir,3);
-new Nickname(191L, Wschodzące Słońce,3);
-new Nickname(192L, Wszechwidzący,3);
-new Nickname(193L, Wyniosły Dąb,3);
-new Nickname(194L, Wysoki Brzeg,3);
-new Nickname(195L, Zachodzące Słońce,3);
-new Nickname(196L, Zieleń Pióra,3);
-new Nickname(197L, Zieleń Skrzydła,3);
-new Nickname(198L, Zielona Dolina,3);
-new Nickname(199L, Złocisty Obłok,3);
-new Nickname(200L, Złota Struga,3);
-new Nickname(201L, Złotowłosy,3);
+new Nickname(102L, "Białowłosy", Race.ELF);
+new Nickname(103L, "Gwiazda Zaranna", Race.ELF);
+new Nickname(104L, "Lśniący Grot", Race.ELF);
+new Nickname(105L, "Błękit Pióra", Race.ELF);
+new Nickname(106L, "Gwiezdne Oko", Race.ELF);
+new Nickname(107L, "Lśniący Księżyc", Race.ELF);
+new Nickname(108L, "Błękit Skrzydła", Race.ELF);
+new Nickname(109L, "Gwiezdny Ogień", Race.ELF);
+new Nickname(110L, "Mądre Serce", Race.ELF);
+new Nickname(111L, "Błysk Klingi", Race.ELF);
+new Nickname(112L, "Gwiezdny Pył", Race.ELF);
+new Nickname(113L, "Mądrość Klanu", Race.ELF);
+new Nickname(114L, "BłyskPioruna", Race.ELF);
+new Nickname(115L, "Jasna Gwiazda", Race.ELF);
+new Nickname(116L, "Mężne Serce", Race.ELF);
+new Nickname(117L, "Błysk Stali", Race.ELF);
+new Nickname(118L, "Jasnooki", Race.ELF);
+new Nickname(119L, "Młody Liść", Race.ELF);
+new Nickname(120L, "Bystrooki", Race.ELF);
+new Nickname(121L, "Jastrzębie Oko", Race.ELF);
+new Nickname(122L, "Moc Dębu", Race.ELF);
+new Nickname(123L, "Ciemnowłosy", Race.ELF);
+new Nickname(124L, "Jaśniejący", Race.ELF);
+new Nickname(125L, "Moc Korzeni", Race.ELF);
+new Nickname(126L, "Cienista Dolina", Race.ELF);
+new Nickname(127L, "Jeleni Skok", Race.ELF);
+new Nickname(128L, "Moc Różdzki", Race.ELF);
+new Nickname(129L, "Czarne Drzewo", Race.ELF);
+new Nickname(130L, "Kieł Wilka", Race.ELF);
+new Nickname(131L, "Morska Fala", Race.ELF);
+new Nickname(132L, "Czarny Kurhan", Race.ELF);
+new Nickname(133L, "Korona słońca", Race.ELF);
+new Nickname(134L, "Morska Piana", Race.ELF);
+new Nickname(135L, "Czysty Zdrój", Race.ELF);
+new Nickname(136L, "Krzyk Puchacza", Race.ELF);
+new Nickname(137L, "Mroczne Ostrze", Race.ELF);
+new Nickname(138L, "Dech Lasu", Race.ELF);
+new Nickname(139L, "Księzycowy Blask", Race.ELF);
+new Nickname(140L, "Nocny Łowca", Race.ELF);
+new Nickname(141L, "Dębowy Konar", Race.ELF);
+new Nickname(142L, "Księżycowy Mrok", Race.ELF);
+new Nickname(143L, "Oko Wilka", Race.ELF);
+new Nickname(144L, "Dotyk Nocy", Race.ELF);
+new Nickname(145L, "Kwiat Młodości", Race.ELF);
+new Nickname(146L, "Oko Wizji", Race.ELF);
+new Nickname(147L, "Dzikie Serce", Race.ELF);
+new Nickname(148L, "Lot Sokoła", Race.ELF);
+new Nickname(149L, "Oko Zieleni", Race.ELF);
+new Nickname(150L, "Gwiazda Wieczorna", Race.ELF);
+new Nickname(151L, "Lśniąca Góra", Race.ELF);
+new Nickname(152L, "Opadający Liść", Race.ELF);
+new Nickname(153L, "Opoka Siły", Race.ELF);
+new Nickname(154L, "Orzeł Mroku", Race.ELF);
+new Nickname(155L, "Ostre Ostrze", Race.ELF);
+new Nickname(156L, "Ostry Grot", Race.ELF);
+new Nickname(157L, "Pajęcza Nić", Race.ELF);
+new Nickname(158L, "Patrzący W Dal", Race.ELF);
+new Nickname(159L, "Podmuch Wichury", Race.ELF);
+new Nickname(160L, "Poranna Rosa", Race.ELF);
+new Nickname(161L, "Półksięzyc", Race.ELF);
+new Nickname(162L, "Promyk Słońca", Race.ELF);
+new Nickname(163L, "Przyjaciel Zwierząt", Race.ELF);
+new Nickname(164L, "Radosne Serce", Race.ELF);
+new Nickname(165L, "Rózany Kwiat", Race.ELF);
+new Nickname(166L, "Ryk Burzy", Race.ELF);
+new Nickname(167L, "Silnoręki", Race.ELF);
+new Nickname(168L, "Smoczy Brat", Race.ELF);
+new Nickname(169L, "Smukłe Ostrze", Race.ELF);
+new Nickname(170L, "Smukły Grot", Race.ELF);
+new Nickname(171L, "Spokój Fal", Race.ELF);
+new Nickname(172L, "Spokój Kamienia", Race.ELF);
+new Nickname(173L, "Spokój Lasu", Race.ELF);
+new Nickname(174L, "Srebrnowłosy", Race.ELF);
+new Nickname(175L, "Srebrny Liść", Race.ELF);
+new Nickname(176L, "Srebrny Świt", Race.ELF);
+new Nickname(177L, "Strzała Mocy", Race.ELF);
+new Nickname(178L, "Szybki Grot", Race.ELF);
+new Nickname(179L, "Szybkie Ostrze", Race.ELF);
+new Nickname(180L, "Śnieżny Puch", Race.ELF);
+new Nickname(181L, "Śpiew Dzikości", Race.ELF);
+new Nickname(182L, "Śpiew Wiatru", Race.ELF);
+new Nickname(183L, "Ukryty W Cieniu", Race.ELF);
+new Nickname(184L, "Uśmiech Wiatru", Race.ELF);
+new Nickname(185L, "Wartki Strumyk", Race.ELF);
+new Nickname(186L, "Wędrowiec", Race.ELF);
+new Nickname(187L, "Wiatr Wśród Traw", Race.ELF);
+new Nickname(188L, "Wiatroskrzydły", Race.ELF);
+new Nickname(189L, "Wieża Mądrości", Race.ELF);
+new Nickname(190L, "Wodny Wir", Race.ELF);
+new Nickname(191L, "Wschodzące Słońce", Race.ELF);
+new Nickname(192L, "Wszechwidzący", Race.ELF);
+new Nickname(193L, "Wyniosły Dąb", Race.ELF);
+new Nickname(194L, "Wysoki Brzeg", Race.ELF);
+new Nickname(195L, "Zachodzące Słońce", Race.ELF);
+new Nickname(196L, "Zieleń Pióra", Race.ELF);
+new Nickname(197L, "Zieleń Skrzydła", Race.ELF);
+new Nickname(198L, "Zielona Dolina", Race.ELF);
+new Nickname(199L, "Złocisty Obłok", Race.ELF);
+new Nickname(200L, "Złota Struga", Race.ELF);
+new Nickname(201L, "Złotowłosy", Race.ELF);
 
 Przydomek Człowieka:
 new Nickname(202L,"Adelhot", Race.HUMAN);
@@ -1158,219 +1161,219 @@ new Name (538L, "Wulf",Gender.MALE, Race.HUMAN);
 new Name (539L, "Xavier",Gender.MALE, Race.HUMAN);
 
 Imiękrasnoluda 1 człon:
-new Name(540L,"Al",Gender.OTHER, Race.DWARF);
-new Name(541L,"Ath",Gender.OTHER, Race.DWARF);
-new Name(542L,"Athran",Gender.OTHER, Race.DWARF);
-new Name(543L,"Bal",Gender.OTHER, Race.DWARF);
-new Name(544L,"Bala",Gender.OTHER, Race.DWARF);
-new Name(545L,"Bara",Gender.OTHER, Race.DWARF);
-new Name(546L,"Bel",Gender.OTHER, Race.DWARF);
-new Name(547L,"Bela",Gender.OTHER, Race.DWARF);
-new Name(548L,"Ber",Gender.OTHER, Race.DWARF);
-new Name(549L,"Bok",Gender.OTHER, Race.DWARF);
-new Name(550L,"Bor",Gender.OTHER, Race.DWARF);
-new Name(551L,"Bur",Gender.OTHER, Race.DWARF);
-new Name(552L,"Da",Gender.OTHER, Race.DWARF);
-new Name(553L,"Dam",Gender.OTHER, Race.DWARF);
-new Name(554L,"Dora",Gender.OTHER, Race.DWARF);
-new Name(555L,"Drok",Gender.OTHER, Race.DWARF);
-new Name(556L,"Drong",Gender.OTHER, Race.DWARF);
-new Name(557L,"Dur",Gender.OTHER, Race.DWARF);
-new Name(558L,"Dwal",Gender.OTHER, Race.DWARF);
-new Name(559L,"Ela",Gender.OTHER, Race.DWARF);
-new Name(560L,"Elan",Gender.OTHER, Race.DWARF);
-new Name(561L,"Elda",Gender.OTHER, Race.DWARF);
-new Name(562L,"Fa",Gender.OTHER, Race.DWARF);
-new Name(563L,"Far",Gender.OTHER, Race.DWARF);
-new Name(564L,"Fara",Gender.OTHER, Race.DWARF);
-new Name(565L,"Fim",Gender.OTHER, Race.DWARF);
-new Name(566L,"Fima",Gender.OTHER, Race.DWARF);
-new Name(567L,"Firen",Gender.OTHER, Race.DWARF);
-new Name(568L,"Fur",Gender.OTHER, Race.DWARF);
-new Name(569L,"Fura",Gender.OTHER, Race.DWARF);
-new Name(570L,"Ga",Gender.OTHER, Race.DWARF);
-new Name(571L,"Gim",Gender.OTHER, Race.DWARF);
-new Name(572L,"Gol",Gender.OTHER, Race.DWARF);
-new Name(573L,"Gollen",Gender.OTHER, Race.DWARF);
-new Name(574L,"Got",Gender.OTHER, Race.DWARF);
-new Name(575L,"Gota",Gender.OTHER, Race.DWARF);
-new Name(576L,"Grim",Gender.OTHER, Race.DWARF);
-new Name(577L,"Gro",Gender.OTHER, Race.DWARF);
-new Name(578L,"Grun",Gender.OTHER, Race.DWARF);
-new Name(579L,"Hak",Gender.OTHER, Race.DWARF);
-new Name(580L,"Haka",Gender.OTHER, Race.DWARF);
-new Name(581L,"Har",Gender.OTHER, Race.DWARF);
-new Name(582L,"Hega",Gender.OTHER, Race.DWARF);
-new Name(583L,"Hur",Gender.OTHER, Race.DWARF);
-new Name(584L,"Kad",Gender.OTHER, Race.DWARF);
-new Name(585L,"Kar",Gender.OTHER, Race.DWARF);
-new Name(586L,"Kata",Gender.OTHER, Race.DWARF);
-new Name(587L,"Kaz",Gender.OTHER, Race.DWARF);
-new Name(588L,"Kaza",Gender.OTHER, Race.DWARF);
-new Name(589L,"Krag",Gender.OTHER, Race.DWARF);
-new Name(590L,"Logaz",Gender.OTHER, Race.DWARF);
-new Name(591L,"Lok",Gender.OTHER, Race.DWARF);
-new Name(592L,"Lun",Gender.OTHER, Race.DWARF);
-new Name(593L,"Mo",Gender.OTHER, Race.DWARF);
-new Name(594L,"Mola",Gender.OTHER, Race.DWARF);
-new Name(595L,"Mor",Gender.OTHER, Race.DWARF);
-new Name(596L,"Mora",Gender.OTHER, Race.DWARF);
-new Name(597L,"No",Gender.OTHER, Race.DWARF);
-new Name(598L,"Nola",Gender.OTHER, Race.DWARF);
-new Name(599L,"Nor",Gender.OTHER, Race.DWARF);
-new Name(600L,"Noran",Gender.OTHER, Race.DWARF);
-new Name(601L,"Nun",Gender.OTHER, Race.DWARF);
-new Name(602L,"Oda",Gender.OTHER, Race.DWARF);
-new Name(603L,"Oka",Gender.OTHER, Race.DWARF);
-new Name(604L,"Olla",Gender.OTHER, Race.DWARF);
-new Name(605L,"Olf",Gender.OTHER, Race.DWARF);
-new Name(606L,"Oth",Gender.OTHER, Race.DWARF);
-new Name(607L,"Othra",Gender.OTHER, Race.DWARF);
-new Name(608L,"Ro",Gender.OTHER, Race.DWARF);
-new Name(609L,"Ror",Gender.OTHER, Race.DWARF);
-new Name(610L,"Roran",Gender.OTHER, Race.DWARF);
-new Name(611L,"Ska",Gender.OTHER, Race.DWARF);
-new Name(612L,"Skalla",Gender.OTHER, Race.DWARF);
-new Name(613L,"Skalf",Gender.OTHER, Race.DWARF);
-new Name(614L,"Skar",Gender.OTHER, Race.DWARF);
-new Name(615L,"Skor",Gender.OTHER, Race.DWARF);
-new Name(616L,"Skora",Gender.OTHER, Race.DWARF);
-new Name(617L,"Snor",Gender.OTHER, Race.DWARF);
-new Name(618L,"Snora",Gender.OTHER, Race.DWARF);
-new Name(619L,"Sven",Gender.OTHER, Race.DWARF);
-new Name(620L,"Thar",Gender.OTHER, Race.DWARF);
-new Name(621L,"Thor",Gender.OTHER, Race.DWARF);
-new Name(622L,"Thora",Gender.OTHER, Race.DWARF);
-new Name(623L,"Thron",Gender.OTHER, Race.DWARF);
-new Name(624L,"Thrun",Gender.OTHER, Race.DWARF);
-new Name(625L,"Thura",Gender.OTHER, Race.DWARF);
-new Name(626L,"Un",Gender.OTHER, Race.DWARF);
-new Name(627L,"Utha",Gender.OTHER, Race.DWARF);
-new Name(628L,"Ulla",Gender.OTHER, Race.DWARF);
-new Name(629L,"Vala",Gender.OTHER, Race.DWARF);
-new Name(630L,"Var",Gender.OTHER, Race.DWARF);
-new Name(631L,"Vara",Gender.OTHER, Race.DWARF);
-new Name(632L,"Zak",Gender.OTHER, Race.DWARF);
-new Name(633L,"Zaka",Gender.OTHER, Race.DWARF);
-new Name(634L,"Zakan",Gender.OTHER, Race.DWARF);
-new Name(635L,"Zar",Gender.OTHER, Race.DWARF);
-new Name(636L,"Zara",Gender.OTHER, Race.DWARF);
-new Name(637L,"Zam",Gender.OTHER, Race.DWARF);
-new Name(638L,"Zama",Gender.OTHER, Race.DWARF);
+new Name(540L,"Al",Gender.BOTH, Race.DWARF);
+new Name(541L,"Ath",Gender.BOTH, Race.DWARF);
+new Name(542L,"Athran",Gender.BOTH, Race.DWARF);
+new Name(543L,"Bal",Gender.BOTH, Race.DWARF);
+new Name(544L,"Bala",Gender.BOTH, Race.DWARF);
+new Name(545L,"Bara",Gender.BOTH, Race.DWARF);
+new Name(546L,"Bel",Gender.BOTH, Race.DWARF);
+new Name(547L,"Bela",Gender.BOTH, Race.DWARF);
+new Name(548L,"Ber",Gender.BOTH, Race.DWARF);
+new Name(549L,"Bok",Gender.BOTH, Race.DWARF);
+new Name(550L,"Bor",Gender.BOTH, Race.DWARF);
+new Name(551L,"Bur",Gender.BOTH, Race.DWARF);
+new Name(552L,"Da",Gender.BOTH, Race.DWARF);
+new Name(553L,"Dam",Gender.BOTH, Race.DWARF);
+new Name(554L,"Dora",Gender.BOTH, Race.DWARF);
+new Name(555L,"Drok",Gender.BOTH, Race.DWARF);
+new Name(556L,"Drong",Gender.BOTH, Race.DWARF);
+new Name(557L,"Dur",Gender.BOTH, Race.DWARF);
+new Name(558L,"Dwal",Gender.BOTH, Race.DWARF);
+new Name(559L,"Ela",Gender.BOTH, Race.DWARF);
+new Name(560L,"Elan",Gender.BOTH, Race.DWARF);
+new Name(561L,"Elda",Gender.BOTH, Race.DWARF);
+new Name(562L,"Fa",Gender.BOTH, Race.DWARF);
+new Name(563L,"Far",Gender.BOTH, Race.DWARF);
+new Name(564L,"Fara",Gender.BOTH, Race.DWARF);
+new Name(565L,"Fim",Gender.BOTH, Race.DWARF);
+new Name(566L,"Fima",Gender.BOTH, Race.DWARF);
+new Name(567L,"Firen",Gender.BOTH, Race.DWARF);
+new Name(568L,"Fur",Gender.BOTH, Race.DWARF);
+new Name(569L,"Fura",Gender.BOTH, Race.DWARF);
+new Name(570L,"Ga",Gender.BOTH, Race.DWARF);
+new Name(571L,"Gim",Gender.BOTH, Race.DWARF);
+new Name(572L,"Gol",Gender.BOTH, Race.DWARF);
+new Name(573L,"Gollen",Gender.BOTH, Race.DWARF);
+new Name(574L,"Got",Gender.BOTH, Race.DWARF);
+new Name(575L,"Gota",Gender.BOTH, Race.DWARF);
+new Name(576L,"Grim",Gender.BOTH, Race.DWARF);
+new Name(577L,"Gro",Gender.BOTH, Race.DWARF);
+new Name(578L,"Grun",Gender.BOTH, Race.DWARF);
+new Name(579L,"Hak",Gender.BOTH, Race.DWARF);
+new Name(580L,"Haka",Gender.BOTH, Race.DWARF);
+new Name(581L,"Har",Gender.BOTH, Race.DWARF);
+new Name(582L,"Hega",Gender.BOTH, Race.DWARF);
+new Name(583L,"Hur",Gender.BOTH, Race.DWARF);
+new Name(584L,"Kad",Gender.BOTH, Race.DWARF);
+new Name(585L,"Kar",Gender.BOTH, Race.DWARF);
+new Name(586L,"Kata",Gender.BOTH, Race.DWARF);
+new Name(587L,"Kaz",Gender.BOTH, Race.DWARF);
+new Name(588L,"Kaza",Gender.BOTH, Race.DWARF);
+new Name(589L,"Krag",Gender.BOTH, Race.DWARF);
+new Name(590L,"Logaz",Gender.BOTH, Race.DWARF);
+new Name(591L,"Lok",Gender.BOTH, Race.DWARF);
+new Name(592L,"Lun",Gender.BOTH, Race.DWARF);
+new Name(593L,"Mo",Gender.BOTH, Race.DWARF);
+new Name(594L,"Mola",Gender.BOTH, Race.DWARF);
+new Name(595L,"Mor",Gender.BOTH, Race.DWARF);
+new Name(596L,"Mora",Gender.BOTH, Race.DWARF);
+new Name(597L,"No",Gender.BOTH, Race.DWARF);
+new Name(598L,"Nola",Gender.BOTH, Race.DWARF);
+new Name(599L,"Nor",Gender.BOTH, Race.DWARF);
+new Name(600L,"Noran",Gender.BOTH, Race.DWARF);
+new Name(601L,"Nun",Gender.BOTH, Race.DWARF);
+new Name(602L,"Oda",Gender.BOTH, Race.DWARF);
+new Name(603L,"Oka",Gender.BOTH, Race.DWARF);
+new Name(604L,"Olla",Gender.BOTH, Race.DWARF);
+new Name(605L,"Olf",Gender.BOTH, Race.DWARF);
+new Name(606L,"Oth",Gender.BOTH, Race.DWARF);
+new Name(607L,"Othra",Gender.BOTH, Race.DWARF);
+new Name(608L,"Ro",Gender.BOTH, Race.DWARF);
+new Name(609L,"Ror",Gender.BOTH, Race.DWARF);
+new Name(610L,"Roran",Gender.BOTH, Race.DWARF);
+new Name(611L,"Ska",Gender.BOTH, Race.DWARF);
+new Name(612L,"Skalla",Gender.BOTH, Race.DWARF);
+new Name(613L,"Skalf",Gender.BOTH, Race.DWARF);
+new Name(614L,"Skar",Gender.BOTH, Race.DWARF);
+new Name(615L,"Skor",Gender.BOTH, Race.DWARF);
+new Name(616L,"Skora",Gender.BOTH, Race.DWARF);
+new Name(617L,"Snor",Gender.BOTH, Race.DWARF);
+new Name(618L,"Snora",Gender.BOTH, Race.DWARF);
+new Name(619L,"Sven",Gender.BOTH, Race.DWARF);
+new Name(620L,"Thar",Gender.BOTH, Race.DWARF);
+new Name(621L,"Thor",Gender.BOTH, Race.DWARF);
+new Name(622L,"Thora",Gender.BOTH, Race.DWARF);
+new Name(623L,"Thron",Gender.BOTH, Race.DWARF);
+new Name(624L,"Thrun",Gender.BOTH, Race.DWARF);
+new Name(625L,"Thura",Gender.BOTH, Race.DWARF);
+new Name(626L,"Un",Gender.BOTH, Race.DWARF);
+new Name(627L,"Utha",Gender.BOTH, Race.DWARF);
+new Name(628L,"Ulla",Gender.BOTH, Race.DWARF);
+new Name(629L,"Vala",Gender.BOTH, Race.DWARF);
+new Name(630L,"Var",Gender.BOTH, Race.DWARF);
+new Name(631L,"Vara",Gender.BOTH, Race.DWARF);
+new Name(632L,"Zak",Gender.BOTH, Race.DWARF);
+new Name(633L,"Zaka",Gender.BOTH, Race.DWARF);
+new Name(634L,"Zakan",Gender.BOTH, Race.DWARF);
+new Name(635L,"Zar",Gender.BOTH, Race.DWARF);
+new Name(636L,"Zara",Gender.BOTH, Race.DWARF);
+new Name(637L,"Zam",Gender.BOTH, Race.DWARF);
+new Name(638L,"Zama",Gender.BOTH, Race.DWARF);
 
 2 człon krasnoluda kobieta:
-new Name(639L, "Bina",Gender.FEMALE, Race.DWARF);
-new Name(640L, "Bora",Gender.FEMALE, Race.DWARF);
-new Name(641L, "Dila",Gender.FEMALE, Race.DWARF);
-new Name(642L, "Dina",Gender.FEMALE, Race.DWARF);
-new Name(643L, "Dokina",Gender.FEMALE, Race.DWARF);
-new Name(644L, "Dora",Gender.FEMALE, Race.DWARF);
-new Name(645L, "Drinella",Gender.FEMALE, Race.DWARF);
-new Name(646L, "Fina",Gender.FEMALE, Race.DWARF);
-new Name(647L, "Fya",Gender.FEMALE, Race.DWARF);
-new Name(648L, "Gana",Gender.FEMALE, Race.DWARF);
-new Name(649L, "Gara",Gender.FEMALE, Race.DWARF);
-new Name(650L, "Gella",Gender.FEMALE, Race.DWARF);
-new Name(651L, "Gina",Gender.FEMALE, Race.DWARF);
-new Name(652L, "Groma",Gender.FEMALE, Race.DWARF);
-new Name(653L, "Grondella",Gender.FEMALE, Race.DWARF);
-new Name(654L, "Grotha",Gender.FEMALE, Race.DWARF);
-new Name(655L, "Gruma",Gender.FEMALE, Race.DWARF);
-new Name(656L, "Grunda",Gender.FEMALE, Race.DWARF);
-new Name(657L, "Gruntina",Gender.FEMALE, Race.DWARF);
-new Name(658L, "Gona",Gender.FEMALE, Race.DWARF);
-new Name(659L, "Gora",Gender.FEMALE, Race.DWARF);
-new Name(660L, "Grimella",Gender.FEMALE, Race.DWARF);
-new Name(661L, "Grina",Gender.FEMALE, Race.DWARF);
-new Name(662L, "Gromina",Gender.FEMALE, Race.DWARF);
-new Name(663L, "Gula",Gender.FEMALE, Race.DWARF);
-new Name(664L, "Gunella",Gender.FEMALE, Race.DWARF);
-new Name(665L, "Gundina",Gender.FEMALE, Race.DWARF);
-new Name(666L, "Kina",Gender.FEMALE, Race.DWARF);
-new Name(667L, "Kragella",Gender.FEMALE, Race.DWARF);
-new Name(668L, "Krina",Gender.FEMALE, Race.DWARF);
-new Name(669L, "Kya",Gender.FEMALE, Race.DWARF);
-new Name(670L, "Lina",Gender.FEMALE, Race.DWARF);
-new Name(671L, "Likina",Gender.FEMALE, Race.DWARF);
-new Name(672L, "Loka",Gender.FEMALE, Race.DWARF);
-new Name(673L, "Luna",Gender.FEMALE, Race.DWARF);
-new Name(674L, "Mina",Gender.FEMALE, Race.DWARF);
-new Name(675L, "Mira",Gender.FEMALE, Race.DWARF);
-new Name(676L, "Nina",Gender.FEMALE, Race.DWARF);
-new Name(677L, "Nira",Gender.FEMALE, Race.DWARF);
-new Name(678L, "Nya",Gender.FEMALE, Race.DWARF);
-new Name(679L, "Ragina",Gender.FEMALE, Race.DWARF);
-new Name(680L, "Riga",Gender.FEMALE, Race.DWARF);
-new Name(681L, "Rika",Gender.FEMALE, Race.DWARF);
-new Name(682L, "Rina",Gender.FEMALE, Race.DWARF);
-new Name(683L, "Runa",Gender.FEMALE, Race.DWARF);
-new Name(684L, "Runella",Gender.FEMALE, Race.DWARF);
-new Name(685L, "Skina",Gender.FEMALE, Race.DWARF);
-new Name(686L, "Skinella",Gender.FEMALE, Race.DWARF);
-new Name(687L, "Tina",Gender.FEMALE, Race.DWARF);
-new Name(688L, "Toka",Gender.FEMALE, Race.DWARF);
-new Name(689L, "Trekella",Gender.FEMALE, Race.DWARF);
-new Name(690L, "Trekina",Gender.FEMALE, Race.DWARF);
-new Name(691L, "Troka",Gender.FEMALE, Race.DWARF);
-new Name(692L, "Zina",Gender.FEMALE, Race.DWARF);
-new Name(693L, "Zora",Gender.FEMALE, Race.DWARF);
-new Name(694L, "Bin",Gender.FEMALE, Race.DWARF);
-new Name(695L, "Gin",Gender.FEMALE, Race.DWARF);
-new Name(696L, "Grin",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(639L, "Bina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(640L, "Bora",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(641L, "Dila",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(642L, "Dina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(643L, "Dokina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(644L, "Dora",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(645L, "Drinella",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(646L, "Fina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(647L, "Fya",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(648L, "Gana",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(649L, "Gara",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(650L, "Gella",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(651L, "Gina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(652L, "Groma",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(653L, "Grondella",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(654L, "Grotha",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(655L, "Gruma",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(656L, "Grunda",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(657L, "Gruntina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(658L, "Gona",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(659L, "Gora",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(660L, "Grimella",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(661L, "Grina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(662L, "Gromina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(663L, "Gula",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(664L, "Gunella",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(665L, "Gundina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(666L, "Kina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(667L, "Kragella",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(668L, "Krina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(669L, "Kya",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(670L, "Lina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(671L, "Likina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(672L, "Loka",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(673L, "Luna",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(674L, "Mina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(675L, "Mira",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(676L, "Nina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(677L, "Nira",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(678L, "Nya",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(679L, "Ragina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(680L, "Riga",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(681L, "Rika",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(682L, "Rina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(683L, "Runa",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(684L, "Runella",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(685L, "Skina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(686L, "Skinella",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(687L, "Tina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(688L, "Toka",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(689L, "Trekella",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(690L, "Trekina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(691L, "Troka",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(692L, "Zina",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(693L, "Zora",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(694L, "Bin",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(695L, "Gin",Gender.FEMALE, Race.DWARF);
+new Name2ndPart(696L, "Grin",Gender.FEMALE, Race.DWARF);
 
 2 człom krasnoluda mężczyzna:
-new Name(949L, "Bin",Gender.MALE, Race.DWARF);
-new Name(697L, "Bor",Gender.MALE, Race.DWARF);
-new Name(698L, "Di",Gender.MALE, Race.DWARF);
-new Name(699L, "Din",Gender.MALE, Race.DWARF);
-new Name(700L, "Dok",Gender.MALE, Race.DWARF);
-new Name(701L, "Dor",Gender.MALE, Race.DWARF);
-new Name(702L, "Drin",Gender.MALE, Race.DWARF);
-new Name(703L, "Fin",Gender.MALE, Race.DWARF);
-new Name(704L, "Gil",Gender.MALE, Race.DWARF);
-new Name(705L, "Gin",Gender.MALE, Race.DWARF);
-new Name(706L, "Gni",Gender.MALE, Race.DWARF);
-new Name(707L, "Grom",Gender.MALE, Race.DWARF);
-new Name(708L, "Grond",Gender.MALE, Race.DWARF);
-new Name(709L, "Groth",Gender.MALE, Race.DWARF);
-new Name(710L, "Grum",Gender.MALE, Race.DWARF);
-new Name(711L, "Grund",Gender.MALE, Race.DWARF);
-new Name(712L, "Grunt",Gender.MALE, Race.DWARF);
-new Name(713L, "Gon",Gender.MALE, Race.DWARF);
-new Name(714L, "Gar",Gender.MALE, Race.DWARF);
-new Name(715L, "Grim",Gender.MALE, Race.DWARF);
-new Name(716L, "Grin",Gender.MALE, Race.DWARF);
-new Name(717L, "Grom",Gender.MALE, Race.DWARF);
-new Name(718L, "Gul",Gender.MALE, Race.DWARF);
-new Name(719L, "Gun",Gender.MALE, Race.DWARF);
-new Name(720L, "Gund",Gender.MALE, Race.DWARF);
-new Name(721L, "Ki",Gender.MALE, Race.DWARF);
-new Name(722L, "Kin",Gender.MALE, Race.DWARF);
-new Name(723L, "Krag",Gender.MALE, Race.DWARF);
-new Name(724L, "Kri",Gender.MALE, Race.DWARF);
-new Name(725L, "Krin",Gender.MALE, Race.DWARF);
-new Name(726L, "Li",Gender.MALE, Race.DWARF);
-new Name(727L, "Lin",Gender.MALE, Race.DWARF);
-new Name(728L, "Lik",Gender.MALE, Race.DWARF);
-new Name(729L, "Lok",Gender.MALE, Race.DWARF);
-new Name(730L, "Lun",Gender.MALE, Race.DWARF);
-new Name(731L, "Min",Gender.MALE, Race.DWARF);
-new Name(732L, "Mir",Gender.MALE, Race.DWARF);
-new Name(733L, "Nin",Gender.MALE, Race.DWARF);
-new Name(734L, "Nir",Gender.MALE, Race.DWARF);
-new Name(735L, "Rik",Gender.MALE, Race.DWARF);
-new Name(736L, "Rin",Gender.MALE, Race.DWARF);
-new Name(737L, "Run",Gender.MALE, Race.DWARF);
-new Name(738L, "Skin",Gender.MALE, Race.DWARF);
-new Name(739L, "Tin",Gender.MALE, Race.DWARF);
-new Name(740L, "Tok",Gender.MALE, Race.DWARF);
-new Name(741L, "Trek",Gender.MALE, Race.DWARF);
-new Name(742L, "Trok",Gender.MALE, Race.DWARF);
-new Name(743L, "Zin",Gender.MALE, Race.DWARF);
-new Name(744L, "Zor",Gender.MALE, Race.DWARF);
-new Name(745L, "Rag",Gender.MALE, Race.DWARF);
-new Name(746L, "Ri",Gender.MALE, Race.DWARF);
-new Name(747L, "Rig",Gender.MALE, Race.DWARF);
+new Name2ndPart(949L, "Bin",Gender.MALE, Race.DWARF);
+new Name2ndPart(697L, "Bor",Gender.MALE, Race.DWARF);
+new Name2ndPart(698L, "Di",Gender.MALE, Race.DWARF);
+new Name2ndPart(699L, "Din",Gender.MALE, Race.DWARF);
+new Name2ndPart(700L, "Dok",Gender.MALE, Race.DWARF);
+new Name2ndPart(701L, "Dor",Gender.MALE, Race.DWARF);
+new Name2ndPart(702L, "Drin",Gender.MALE, Race.DWARF);
+new Name2ndPart(703L, "Fin",Gender.MALE, Race.DWARF);
+new Name2ndPart(704L, "Gil",Gender.MALE, Race.DWARF);
+new Name2ndPart(705L, "Gin",Gender.MALE, Race.DWARF);
+new Name2ndPart(706L, "Gni",Gender.MALE, Race.DWARF);
+new Name2ndPart(707L, "Grom",Gender.MALE, Race.DWARF);
+new Name2ndPart(708L, "Grond",Gender.MALE, Race.DWARF);
+new Name2ndPart(709L, "Groth",Gender.MALE, Race.DWARF);
+new Name2ndPart(710L, "Grum",Gender.MALE, Race.DWARF);
+new Name2ndPart(711L, "Grund",Gender.MALE, Race.DWARF);
+new Name2ndPart(712L, "Grunt",Gender.MALE, Race.DWARF);
+new Name2ndPart(713L, "Gon",Gender.MALE, Race.DWARF);
+new Name2ndPart(714L, "Gar",Gender.MALE, Race.DWARF);
+new Name2ndPart(715L, "Grim",Gender.MALE, Race.DWARF);
+new Name2ndPart(716L, "Grin",Gender.MALE, Race.DWARF);
+new Name2ndPart(717L, "Grom",Gender.MALE, Race.DWARF);
+new Name2ndPart(718L, "Gul",Gender.MALE, Race.DWARF);
+new Name2ndPart(719L, "Gun",Gender.MALE, Race.DWARF);
+new Name2ndPart(720L, "Gund",Gender.MALE, Race.DWARF);
+new Name2ndPart(721L, "Ki",Gender.MALE, Race.DWARF);
+new Name2ndPart(722L, "Kin",Gender.MALE, Race.DWARF);
+new Name2ndPart(723L, "Krag",Gender.MALE, Race.DWARF);
+new Name2ndPart(724L, "Kri",Gender.MALE, Race.DWARF);
+new Name2ndPart(725L, "Krin",Gender.MALE, Race.DWARF);
+new Name2ndPart(726L, "Li",Gender.MALE, Race.DWARF);
+new Name2ndPart(727L, "Lin",Gender.MALE, Race.DWARF);
+new Name2ndPart(728L, "Lik",Gender.MALE, Race.DWARF);
+new Name2ndPart(729L, "Lok",Gender.MALE, Race.DWARF);
+new Name2ndPart(730L, "Lun",Gender.MALE, Race.DWARF);
+new Name2ndPart(731L, "Min",Gender.MALE, Race.DWARF);
+new Name2ndPart(732L, "Mir",Gender.MALE, Race.DWARF);
+new Name2ndPart(733L, "Nin",Gender.MALE, Race.DWARF);
+new Name2ndPart(734L, "Nir",Gender.MALE, Race.DWARF);
+new Name2ndPart(735L, "Rik",Gender.MALE, Race.DWARF);
+new Name2ndPart(736L, "Rin",Gender.MALE, Race.DWARF);
+new Name2ndPart(737L, "Run",Gender.MALE, Race.DWARF);
+new Name2ndPart(738L, "Skin",Gender.MALE, Race.DWARF);
+new Name2ndPart(739L, "Tin",Gender.MALE, Race.DWARF);
+new Name2ndPart(740L, "Tok",Gender.MALE, Race.DWARF);
+new Name2ndPart(741L, "Trek",Gender.MALE, Race.DWARF);
+new Name2ndPart(742L, "Trok",Gender.MALE, Race.DWARF);
+new Name2ndPart(743L, "Zin",Gender.MALE, Race.DWARF);
+new Name2ndPart(744L, "Zor",Gender.MALE, Race.DWARF);
+new Name2ndPart(745L, "Rag",Gender.MALE, Race.DWARF);
+new Name2ndPart(746L, "Ri",Gender.MALE, Race.DWARF);
+new Name2ndPart(747L, "Rig",Gender.MALE, Race.DWARF);
 
 Imię elfie:
 new Name(748L, "Aed",Gender.BOTH, Race.ELF);
@@ -1475,158 +1478,158 @@ new Name( 846L, "Yr",Gender.BOTH, Race.ELF);
 new Name( 847L, "Yv",Gender.BOTH, Race.ELF);
 
 łącznik imienie elfiego:
-new NameConnector(1L,A);
-new NameConnector(2L,Ale);
-new NameConnector(3L,An);
-new NameConnector(4L,Ar);
-new NameConnector(5L,E);
-new NameConnector(6L,El);
-new NameConnector(7L,En);
-new NameConnector(8L,Er);
-new NameConnector(9L,Es);
-new NameConnector(10L,Fan);
-new NameConnector(11L,Fen);
-new NameConnector(12L,Fin);
-new NameConnector(13L,Sa);
-new NameConnector(14L,Sal);
-new NameConnector(15L,San);
-new NameConnector(16L,Si);
-new NameConnector(17L,Sil);
-new NameConnector(18L,Sin);
-new NameConnector(19L,I);
-new NameConnector(20L,O);
-new NameConnector(21L,U);
-new NameConnector(22L,On);
-new NameConnector(23L,Or);
-new NameConnector(24L,Os);
-new NameConnector(25L,Ra);
-new NameConnector(26L,Ral);
-new NameConnector(27L,Ran);
-new NameConnector(28L,Re);
-new NameConnector(29L,Rel);
-new NameConnector(30L,Ren);
-new NameConnector(31L,Ri);
-new NameConnector(32L,Ril);
-new NameConnector(33L,Rin);
-new NameConnector(34L,Sol);
-new NameConnector(35L,Son);
-new NameConnector(36L,Sel);
-new NameConnector(37L,Ro);
-new NameConnector(38L,In);
-new NameConnector(39L,Ir);
-new NameConnector(40L,Is);
-new NameConnector(41L,Rol);
-new NameConnector(42L,Ron);
-new NameConnector(43L,Ry);
-new NameConnector(44L,Sin);
-new NameConnector(45L,Leth);
-new NameConnector(46L,Ris);
-new NameConnector(47L,Ul);
-new NameConnector(48L,Is);
-new NameConnector(49L,Ir);
-new NameConnector(50L,In);
+new NameConnector(1L,"A", Race.ELF);
+new NameConnector(2L,"Ale", Race.ELF);
+new NameConnector(3L,"An", Race.ELF);
+new NameConnector(4L,"Ar", Race.ELF);
+new NameConnector(5L,"E", Race.ELF);
+new NameConnector(6L,"El", Race.ELF);
+new NameConnector(7L,"En", Race.ELF);
+new NameConnector(8L,"Er", Race.ELF);
+new NameConnector(9L,"Es", Race.ELF);
+new NameConnector(10L",Fan", Race.ELF);
+new NameConnector(11L",Fen", Race.ELF);
+new NameConnector(12L",Fin", Race.ELF);
+new NameConnector(13L",Sa", Race.ELF);
+new NameConnector(14L",Sal", Race.ELF);
+new NameConnector(15L",San", Race.ELF);
+new NameConnector(16L",Si", Race.ELF);
+new NameConnector(17L",Sil", Race.ELF);
+new NameConnector(18L",Sin", Race.ELF);
+new NameConnector(19L",I", Race.ELF);
+new NameConnector(20L",O", Race.ELF);
+new NameConnector(21L",U", Race.ELF);
+new NameConnector(22L",On", Race.ELF);
+new NameConnector(23L",Or", Race.ELF);
+new NameConnector(24L",Os", Race.ELF);
+new NameConnector(25L",Ra", Race.ELF);
+new NameConnector(26L",Ral", Race.ELF);
+new NameConnector(27L",Ran", Race.ELF);
+new NameConnector(28L",Re", Race.ELF);
+new NameConnector(29L",Rel", Race.ELF);
+new NameConnector(30L",Ren", Race.ELF);
+new NameConnector(31L",Ri", Race.ELF);
+new NameConnector(32L",Ril", Race.ELF);
+new NameConnector(33L",Rin", Race.ELF);
+new NameConnector(34L",Sol", Race.ELF);
+new NameConnector(35L",Son", Race.ELF);
+new NameConnector(36L",Sel", Race.ELF);
+new NameConnector(37L",Ro", Race.ELF);
+new NameConnector(38L",In", Race.ELF);
+new NameConnector(39L",Ir", Race.ELF);
+new NameConnector(40L",Is", Race.ELF);
+new NameConnector(41L",Rol", Race.ELF);
+new NameConnector(42L",Ron", Race.ELF);
+new NameConnector(43L",Ry", Race.ELF);
+new NameConnector(44L",Sin", Race.ELF);
+new NameConnector(45L",Leth", Race.ELF);
+new NameConnector(46L",Ris", Race.ELF);
+new NameConnector(47L",Ul", Race.ELF);
+new NameConnector(48L",Is", Race.ELF);
+new NameConnector(49L",Ir", Race.ELF);
+new NameConnector(50L",In", Race.ELF);
 
 Imię Elfki:
-new Name( 848L,A,1,3);
-new Name( 849L,Anie,1,3);
-new Name( 850L,Am,1,3);
-new Name( 851L,Ann,1,3);
-new Name( 852L,Arma,1,3);
-new Name( 854L,Arth,1,3);
-new Name( 855L,Ath,1,3);
-new Name( 856L,Brann,1,3);
-new Name( 857L,Bet,1,3);
-new Name( 858L,Beth,1,3);
-new Name( 859L,Brim,1,3);
-new Name( 860L,Brys,1,3);
-new Name( 861L,Dean,1,3);
-new Name( 862L,Det,1,3);
-new Name( 863L,Deth,1,3);
-new Name( 864L,Dys,1,3);
-new Name( 865L,Fys,1,3);
-new Name( 866L,Ris,1,3);
-new Name( 867L,Rith,1,3);
-new Name( 868L,Rys,1,3);
-new Name( 869L,Sar,1,3);
-new Name( 870L,Sath,1,3);
-new Name( 871L,Ser,1,3);
-new Name( 872L,Seth,1,3);
-new Name( 873L,Drian,1,3);
-new Name( 874L,Driel,1,3);
-new Name( 875L,Drys,1,3);
-new Name( 876L,Eann,1,3);
-new Name( 877L,Eanna,1,3);
-new Name( 878L,Earna,1,3);
-new Name( 879L,Earth,1,3);
-new Name( 880L,Elle,1,3);
-new Name( 881L,Eth,1,3);
-new Name( 882L,Eys,1,3);
-new Name( 883L,Eyth,1,3);
-new Name( 884L,Felle,1,3);
-new Name( 885L,Fionn,1,3);
-new Name( 886L,Flys,1,3);
-new Name( 887L,Fyll,1,3);
-new Name( 888L,Fynn,1,3);
-new Name( 889L,Fyr,1,3);
-new Name( 890L,Ille,1,3);
-new Name( 891L,Ina,1,3);
-new Name( 892L,Ira,1,3);
-new Name( 893L,Isa,1,3);
-new Name( 894L,Ithi,1,3);
-new Name( 895L,Itt,1,3);
-new Name( 896L,La,1,3);
-new Name( 897L,Lam,1,3);
-new Name( 898L,Lana,1,3);
-new Name( 899L,Larna,1,3);
-new Name( 900L,Lath,1,3);
-new Name( 901L,Leann,1,3);
-new Name( 902L,Leath,1,3);
-new Name( 903L,Lel,1,3);
-new Name( 904L,Lelle,1,3);
-new Name( 905L,Leth,1,3);
-new Name( 906L,Let,1,3);
-new Name( 907L,Lielle,1,3);
-new Name( 908L,Lieth,1,3);
-new Name( 909L,Lyann,1,3);
-new Name( 910L,Nelle,1,3);
-new Name( 911L,Nem,1,3);
-new Name( 912L,Neth,1,3);
-new Name( 913L,Ni,1,3);
-new Name( 914L,Niell,1,3);
-new Name( 915L,Niella,1,3);
-new Name( 916L,Nith,1,3);
-new Name( 917L,Ras,1,3);
-new Name( 918L,Reann,1,3);
-new Name( 919L,Rell,1,3);
-new Name( 920L,Relle,1,3);
-new Name( 921L,Rielle,1,3);
-new Name( 922L,Sir,1,3);
-new Name( 923L,Sith,1,3);
-new Name( 924L,Teann,1,3);
-new Name( 925L,Ter,1,3);
-new Name( 926L,Thea,1,3);
-new Name( 927L,Ther,1,3);
-new Name( 928L,Teal,1,3);
-new Name( 929L,Thi,1,3);
-new Name( 930L,Thryn,1,3);
-new Name( 931L,Thyn,1,3);
-new Name( 932L,Tir,1,3);
-new Name( 933L,Tor,1,3);
-new Name( 934L,Tos,1,3);
-new Name( 935L,Tryan,1,3);
-new Name( 936L,Trys,1,3);
-new Name( 937L,Yll,1,3);
-new Name( 938L,Yrs,1,3);
-new Name( 939L,Ys,1,3);
-new Name( 940L,Sor,1,3);
-new Name( 941L,Soth,1,3);
-new Name( 942L,Shar,1,3);
-new Name( 943L,Sher,1,3);
-new Name( 944L,Shir,1,3);
-new Name( 945L,Sys,1,3);
-new Name( 946L,Tar,1,3);
-new Name( 947L,Teal,1,3);
-new Name( 948L,Ys,1,3);
+new Name2ndPart( 848L,A,1,3Gender.FEMALE, Race.ELF);
+new Name2ndPart(849L,Anie,Gender.FEMALE, Race.ELF);
+new Name2ndPart(850L,Am,Gender.FEMALE, Race.ELF);
+new Name2ndPart(851L,Ann,Gender.FEMALE, Race.ELF);
+new Name2ndPart(852L,Arma,Gender.FEMALE, Race.ELF);
+new Name2ndPart(854L,Arth,Gender.FEMALE, Race.ELF);
+new Name2ndPart(855L,Ath,Gender.FEMALE, Race.ELF);
+new Name2ndPart(856L,Brann,Gender.FEMALE, Race.ELF);
+new Name2ndPart(857L,Bet,Gender.FEMALE, Race.ELF);
+new Name2ndPart(858L,Beth,Gender.FEMALE, Race.ELF);
+new Name2ndPart(859L,Brim,Gender.FEMALE, Race.ELF);
+new Name2ndPart(860L,Brys,Gender.FEMALE, Race.ELF);
+new Name2ndPart(861L,Dean,Gender.FEMALE, Race.ELF);
+new Name2ndPart(862L,Det,Gender.FEMALE, Race.ELF);
+new Name2ndPart(863L,Deth,Gender.FEMALE, Race.ELF);
+new Name2ndPart(864L,Dys,Gender.FEMALE, Race.ELF);
+new Name2ndPart(865L,Fys,Gender.FEMALE, Race.ELF);
+new Name2ndPart(866L,Ris,Gender.FEMALE, Race.ELF);
+new Name2ndPart(867L,Rith,Gender.FEMALE, Race.ELF);
+new Name2ndPart(868L,Rys,Gender.FEMALE, Race.ELF);
+new Name2ndPart(869L,Sar,Gender.FEMALE, Race.ELF);
+new Name2ndPart(870L,Sath,Gender.FEMALE, Race.ELF);
+new Name2ndPart(871L,Ser,Gender.FEMALE, Race.ELF);
+new Name2ndPart(872L,Seth,Gender.FEMALE, Race.ELF);
+new Name2ndPart(873L,Drian,Gender.FEMALE, Race.ELF);
+new Name2ndPart(874L,Driel,Gender.FEMALE, Race.ELF);
+new Name2ndPart(875L,Drys,Gender.FEMALE, Race.ELF);
+new Name2ndPart(876L,Eann,Gender.FEMALE, Race.ELF);
+new Name2ndPart(877L,Eanna,Gender.FEMALE, Race.ELF);
+new Name2ndPart(878L,Earna,Gender.FEMALE, Race.ELF);
+new Name2ndPart(879L,Earth,Gender.FEMALE, Race.ELF);
+new Name2ndPart(880L,Elle,Gender.FEMALE, Race.ELF);
+new Name2ndPart(881L,Eth,Gender.FEMALE, Race.ELF);
+new Name2ndPart(882L,Eys,Gender.FEMALE, Race.ELF);
+new Name2ndPart(883L,Eyth,Gender.FEMALE, Race.ELF);
+new Name2ndPart(884L,Felle,Gender.FEMALE, Race.ELF);
+new Name2ndPart(885L,Fionn,Gender.FEMALE, Race.ELF);
+new Name2ndPart(886L,Flys,Gender.FEMALE, Race.ELF);
+new Name2ndPart(887L,Fyll,Gender.FEMALE, Race.ELF);
+new Name2ndPart(888L,Fynn,Gender.FEMALE, Race.ELF);
+new Name2ndPart(889L,Fyr,Gender.FEMALE, Race.ELF);
+new Name2ndPart(890L,Ille,Gender.FEMALE, Race.ELF);
+new Name2ndPart(891L,Ina,Gender.FEMALE, Race.ELF);
+new Name2ndPart(892L,Ira,Gender.FEMALE, Race.ELF);
+new Name2ndPart(893L,Isa,Gender.FEMALE, Race.ELF);
+new Name2ndPart(894L,Ithi,Gender.FEMALE, Race.ELF);
+new Name2ndPart(895L,Itt,Gender.FEMALE, Race.ELF);
+new Name2ndPart(896L,La,Gender.FEMALE, Race.ELF);
+new Name2ndPart(897L,Lam,Gender.FEMALE, Race.ELF);
+new Name2ndPart(898L,Lana,Gender.FEMALE, Race.ELF);
+new Name2ndPart(899L,Larna,Gender.FEMALE, Race.ELF);
+new Name2ndPart(900L,Lath,Gender.FEMALE, Race.ELF);
+new Name2ndPart(901L,Leann,Gender.FEMALE, Race.ELF);
+new Name2ndPart(902L,Leath,Gender.FEMALE, Race.ELF);
+new Name2ndPart(903L,Lel,Gender.FEMALE, Race.ELF);
+new Name2ndPart(904L,Lelle,Gender.FEMALE, Race.ELF);
+new Name2ndPart(905L,Leth,Gender.FEMALE, Race.ELF);
+new Name2ndPart(906L,Let,Gender.FEMALE, Race.ELF);
+new Name2ndPart(907L,Lielle,Gender.FEMALE, Race.ELF);
+new Name2ndPart(908L,Lieth,Gender.FEMALE, Race.ELF);
+new Name2ndPart(909L,Lyann,Gender.FEMALE, Race.ELF);
+new Name2ndPart(910L,Nelle,Gender.FEMALE, Race.ELF);
+new Name2ndPart(911L,Nem,Gender.FEMALE, Race.ELF);
+new Name2ndPart(912L,Neth,Gender.FEMALE, Race.ELF);
+new Name2ndPart(913L,Ni,Gender.FEMALE, Race.ELF);
+new Name2ndPart(914L,Niell,Gender.FEMALE, Race.ELF);
+new Name2ndPart(915L,Niella,Gender.FEMALE, Race.ELF);
+new Name2ndPart(916L,Nith,Gender.FEMALE, Race.ELF);
+new Name2ndPart(917L,Ras,Gender.FEMALE, Race.ELF);
+new Name2ndPart(918L,Reann,Gender.FEMALE, Race.ELF);
+new Name2ndPart(919L,Rell,Gender.FEMALE, Race.ELF);
+new Name2ndPart(920L,Relle,Gender.FEMALE, Race.ELF);
+new Name2ndPart(921L,Rielle,Gender.FEMALE, Race.ELF);
+new Name2ndPart(922L,Sir,Gender.FEMALE, Race.ELF);
+new Name2ndPart(923L,Sith,Gender.FEMALE, Race.ELF);
+new Name2ndPart(924L,Teann,Gender.FEMALE, Race.ELF);
+new Name2ndPart(925L,Ter,Gender.FEMALE, Race.ELF);
+new Name2ndPart(926L,Thea,Gender.FEMALE, Race.ELF);
+new Name2ndPart(927L,Ther,Gender.FEMALE, Race.ELF);
+new Name2ndPart(928L,Teal,Gender.FEMALE, Race.ELF);
+new Name2ndPart(929L,Thi,Gender.FEMALE, Race.ELF);
+new Name2ndPart(930L,Thryn,Gender.FEMALE, Race.ELF);
+new Name2ndPart(931L,Thyn,Gender.FEMALE, Race.ELF);
+new Name2ndPart(932L,Tir,Gender.FEMALE, Race.ELF);
+new Name2ndPart(933L,Tor,Gender.FEMALE, Race.ELF);
+new Name2ndPart(934L,Tos,Gender.FEMALE, Race.ELF);
+new Name2ndPart(935L,Tryan,Gender.FEMALE, Race.ELF);
+new Name2ndPart(936L,Trys,Gender.FEMALE, Race.ELF);
+new Name2ndPart(937L,Yll,Gender.FEMALE, Race.ELF);
+new Name2ndPart(938L,Yrs,Gender.FEMALE, Race.ELF);
+new Name2ndPart(939L,Ys,Gender.FEMALE, Race.ELF);
+new Name2ndPart(940L,Sor,Gender.FEMALE, Race.ELF);
+new Name2ndPart(941L,Soth,Gender.FEMALE, Race.ELF);
+new Name2ndPart(942L,Shar,Gender.FEMALE, Race.ELF);
+new Name2ndPart(943L,Sher,Gender.FEMALE, Race.ELF);
+new Name2ndPart(944L,Shir,Gender.FEMALE, Race.ELF);
+new Name2ndPart(945L,Sys,Gender.FEMALE, Race.ELF);
+new Name2ndPart(946L,Tar,Gender.FEMALE, Race.ELF);
+new Name2ndPart(947L,Teal,Gender.FEMALE, Race.ELF);
+new Name2ndPart(948L,Ys,Gender.FEMALE, Race.ELF);
 
 
 

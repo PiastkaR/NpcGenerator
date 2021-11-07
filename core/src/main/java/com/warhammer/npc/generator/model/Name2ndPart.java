@@ -1,5 +1,6 @@
 package com.warhammer.npc.generator.model;
 
+import com.warhammer.npc.generator.hero.description.Gender;
 import com.warhammer.npc.generator.hero.description.Race;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,24 +9,24 @@ import org.springframework.data.redis.core.RedisHash;
 
 import java.io.Serializable;
 
-@RedisHash("nameConnector")
+@RedisHash("name2ndPart")
 @AllArgsConstructor
 @Getter
-public class NameConnector implements Serializable {
-    private static final long serialVersionUID = 3664975818184007096L;
+public class Name2ndPart implements Serializable {
 
     @Id
     private Long id;
-    private String connector;
-    private Race raceConnector;
+    private String name2ndPart;
+    private Gender gender;
+    private Race race;
 
     @Override
     public String toString() {
-        return '\n' + "Connector{" +
+        return '\n' + "Name{" +
                 "id=" + id +
-                ", connector=" + connector +
-                ", raceConnector=" + raceConnector +
+                ", name=" + name2ndPart +
+                ", gender=" + gender +
+                ", race=" + race +
                 '}';
     }
-
 }

@@ -10,10 +10,10 @@ import java.io.Serializable;
 @Getter
 public class FullName implements Serializable {
 
-    private Name baseName;
-    private Nickname nickname;
+    private String baseName;
+    private String nickname;
     @Nullable
-    private NameConnector connector;
+    private String connector;
 
     @Override
     public String toString() {
