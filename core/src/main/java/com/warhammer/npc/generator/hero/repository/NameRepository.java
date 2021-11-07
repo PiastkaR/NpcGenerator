@@ -5,7 +5,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface NameRepository extends CrudRepository <Name, Integer> {
+public interface NameRepository extends CrudRepository <Name, Long> {
 
 //     void saveAll(Map<Integer,Name> map);
 
