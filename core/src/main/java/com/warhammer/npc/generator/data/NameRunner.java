@@ -2,14 +2,8 @@ package com.warhammer.npc.generator.data;
 
 import com.warhammer.npc.generator.hero.description.Gender;
 import com.warhammer.npc.generator.hero.description.Race;
-import com.warhammer.npc.generator.hero.repository.Name2ndPartRepository;
-import com.warhammer.npc.generator.hero.repository.NameConnectorRepository;
-import com.warhammer.npc.generator.hero.repository.NameRepository;
-import com.warhammer.npc.generator.hero.repository.NicknameRepository;
-import com.warhammer.npc.generator.model.Name;
-import com.warhammer.npc.generator.model.Name2ndPart;
-import com.warhammer.npc.generator.model.NameConnector;
-import com.warhammer.npc.generator.model.Nickname;
+import com.warhammer.npc.generator.hero.repository.*;
+import com.warhammer.npc.generator.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -24,17 +18,14 @@ public class NameRunner implements CommandLineRunner {
 
     @Autowired
     private NameRepository nameRepository;
-
     @Autowired
     private NicknameRepository nicknameRepository;
-
-
     @Autowired
     private NameConnectorRepository nameConnectorRepository;
-
     @Autowired
     private Name2ndPartRepository name2ndPartRepository;
-
+    @Autowired
+    private BirthplaceRepository birthplaceRepository;
 
     @Override
     public void run(String... args) throws Exception {

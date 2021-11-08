@@ -1,5 +1,6 @@
 package com.warhammer.npc.generator.model;
 
+import com.warhammer.npc.generator.hero.description.Race;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.data.annotation.Id;
@@ -12,21 +13,16 @@ public class Birthplace {
 
     @Id
     private Long id;
-    private Region region;
     private String place;
+    private Race race;
 
-    @AllArgsConstructor
-    private enum Region {
-        AVERLAND(0),
-        HOCHLAND(1),
-        NORDLAND(2),
-        OSTLAND(3),
-        REIKLAND(4),
-        WISSENLAND(5),
-        STIRLAND(6),
-        OSTERMARK(7),
-        MIDDENLAND(8);
-
-        private final int option;
+    @Override
+    public String toString() {
+        return '\n' + "Birthplace{" +
+                "id=" + id +
+                ", place=" + place +
+                ", race=" + race +
+                '}';
     }
+
 }

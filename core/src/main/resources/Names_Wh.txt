@@ -333,86 +333,87 @@ Miejsce urodzenia:
 "Stirland"
 "Talabekland"
 "Wissenland"
-Nordland:
-"Nordland, Salzenmund"
-"Nordland,Beeckehhoven"
-"Nordland, Dietrishafen"
-"Nordland, Grafenrich"
-"Nordland, Luftberg"
-"Nordland, Oldenlitz"
-"Nordland, Wilhelmskoog"
-Stirland:
-"Stirland, Wurtbad"
-"Stirland, Drakenhof"
-"Stirland, Waldenhof"
-"Stirland, Eschedorf"
-"Stirland, Furtzhausen"
-"Stirland, Wurstheim"
-Averland:
-"Averland, Averheim"
-"Averland, Grenztstadt"
-"Averland, Hochsleben"
-"Averland, Loningsbruck"
-"Averland, Wuppertal"
-"Averland, Agbeiten"
-"Averland, Braundorf"
-"Averland, Kotzenheim"
-"Averland, Zecher"
 
-Ostermark:
-"Ostermark ,Bechafen"
-"Ostermark ,Eisental"
-"Ostermark ,Bissendorf"
-"Ostermark ,Dorna"
-"Ostermark ,Fortenhaf"
-"Ostermark ,Heffengen"
-Talabeckland:
-"Talabeckland, Talabheim"
-"Talabeckland, Bek"
-"Talabeckland, Garndorf"
-"Talabeckland, Rangenhof"
-"Talabeckland, Wellenborn"
-"Talabeckland, Zurin"
-
-Hochland, :
-"Hochland, Hergig"
-"Hochland, Breder"
-"Hochland, Krundenwald"
-"Hochland, Bergendorf"
-"Hochland, Esk"
-"Hochland, Gruyden"
-"Hochland, Koerin"
-Ostland, :
-"Ostland, Wolfenburg"
-"Ostland, Ferlangen"
-"Ostland, Vandegart"
-"Ostland, Boven"
-"Ostland, Lubrecht"
-"Ostland, Samlhoff"
-"Ostland, Zundap"
-"Ostland, Wiessenburg"
-"Ostland, Grissenwald"
-"Ostland, Pfeildorf"
-"Ostland, AMbosstein"
-"Ostland, Koningsdorf"
-"Ostland, Steingart"
-Middenland, :
-"Middenland, Middenheim"
-"Middenland, Delberz"
-"Middenland, Norderingen"
-"Middenland, Holzbec"
-"Middenland, Immelscheld"
-"Middenland, Protzstock"
-"Middenland, Sokh"
-Reikland:
-"Reikland, Altfdorf"
-"Reikland, Nuln"
-"Reikland, Bogenhafen"
-"Reikland, Grunburg"
-"Reikland, Halheim"
-"Reikland, Misthausen"
-"Reikland, Teufelfeuer"
-"Reikland, Weissbruck"
+new Birthplace(0L,"Karak Norn (Góry Szare)",Race.DWARF);
+new Birthplace(1L,"Karak Izor (Przeskok)",Race.DWARF);
+new Birthplace(2L,"Karak Hirn (Góry Czarne)",Race.DWARF);
+new Birthplace(3L,"Karak Kadrin (Góry Krańca Świata)",Race.DWARF);
+new Birthplace(4L,"Karakz-a-Karak (Góry Krańca Świata)",Race.DWARF);
+new Birthplace(5L,"Zhufbar (Góry Krańca Świata)",Race.DWARF);
+new Birthplace(6L,"BarakVarr (Czarna Zatoka)",Race.DWARF);
+new Birthplace(7L,"Las Laurelorn",Race.ELF);
+new Birthplace(8L,"Wielki Las",Race.ELF);
+new Birthplace(9L,"Las Reikwald",Race.ELF);
+new Birthplace(79L,"Kraina Zgromadzenia",Race.HALFLING);
+new Birthplace(10L,"Nordland, Salzenmund",Race.HUMAN);
+new Birthplace(11L,"Nordland,Beeckehhoven",Race.HUMAN);
+new Birthplace(12L,"Nordland, Dietrishafen",Race.HUMAN);
+new Birthplace(13L,"Nordland, Grafenrich",Race.HUMAN);
+new Birthplace(14L,"Nordland, Luftberg",Race.HUMAN);
+new Birthplace(15L,"Nordland, Oldenlitz",Race.HUMAN);
+new Birthplace(16L,"Nordland, Wilhelmskoog",Race.HUMAN);
+new Birthplace(17L,"Stirland, Wurtbad",Race.HUMAN);
+new Birthplace(18L,"Stirland, Drakenhof",Race.HUMAN);
+new Birthplace(19L,"Stirland, Waldenhof",Race.HUMAN);
+new Birthplace(20L,"Stirland, Eschedorf",Race.HUMAN);
+new Birthplace(21L,"Stirland, Furtzhausen",Race.HUMAN);
+new Birthplace(22L,"Stirland, Wurstheim",Race.HUMAN);
+new Birthplace(23L,"Averland, Averheim",Race.HUMAN);
+new Birthplace(24L,"Averland, Grenztstadt",Race.HUMAN);
+new Birthplace(25L,"Averland, Hochsleben",Race.HUMAN);
+new Birthplace(26L,"Averland, Loningsbruck",Race.HUMAN);
+new Birthplace(27L,"Averland, Wuppertal",Race.HUMAN);
+new Birthplace(28L,"Averland, Agbeiten",Race.HUMAN);
+new Birthplace(29L,"Averland, Braundorf",Race.HUMAN);
+new Birthplace(30L,"Averland, Kotzenheim",Race.HUMAN);
+new Birthplace(31L,"Averland, Zecher",Race.HUMAN);
+new Birthplace(32L,"Ostermark ,Bechafen",Race.HUMAN);
+new Birthplace(33L,"Ostermark ,Eisental",Race.HUMAN);
+new Birthplace(34L,"Ostermark ,Bissendorf",Race.HUMAN);
+new Birthplace(35L,"Ostermark ,Dorna",Race.HUMAN);
+new Birthplace(36L,"Ostermark ,Fortenhaf",Race.HUMAN);
+new Birthplace(37L,"Ostermark ,Heffengen",Race.HUMAN);
+new Birthplace(38L,"Talabeckland, Talabheim",Race.HUMAN);
+new Birthplace(39L,"Talabeckland, Bek",Race.HUMAN);
+new Birthplace(40L,"Talabeckland, Garndorf",Race.HUMAN);
+new Birthplace(41L,"Talabeckland, Rangenhof",Race.HUMAN);
+new Birthplace(42L,"Talabeckland, Wellenborn",Race.HUMAN);
+new Birthplace(43L,"Talabeckland, Zurin",Race.HUMAN);
+new Birthplace(44L,"Hochland, Hergig",Race.HUMAN);
+new Birthplace(45L,"Hochland, Breder",Race.HUMAN);
+new Birthplace(46L,"Hochland, Krundenwald",Race.HUMAN);
+new Birthplace(47L,"Hochland, Bergendorf",Race.HUMAN);
+new Birthplace(48L,"Hochland, Esk",Race.HUMAN);
+new Birthplace(49L,"Hochland, Gruyden",Race.HUMAN);
+new Birthplace(50L,"Hochland, Koerin",Race.HUMAN);
+new Birthplace(51L,"Ostland, Wolfenburg",Race.HUMAN);
+new Birthplace(52L,"Ostland, Ferlangen",Race.HUMAN);
+new Birthplace(53L,"Ostland, Vandegart",Race.HUMAN);
+new Birthplace(54L,"Ostland, Boven",Race.HUMAN);
+new Birthplace(55L,"Ostland, Lubrecht",Race.HUMAN);
+new Birthplace(56L,"Ostland, Samlhoff",Race.HUMAN);
+new Birthplace(57L,"Ostland, Zundap",Race.HUMAN);
+new Birthplace(58L,"Ostland, Wiessenburg",Race.HUMAN);
+new Birthplace(59L,"Ostland, Grissenwald",Race.HUMAN);
+new Birthplace(60L,"Ostland, Pfeildorf",Race.HUMAN);
+new Birthplace(61L,"Ostland, AMbosstein",Race.HUMAN);
+new Birthplace(62L,"Ostland, Koningsdorf",Race.HUMAN);
+new Birthplace(63L,"Ostland, Steingart",Race.HUMAN);
+new Birthplace(64L,"Middenland, Middenheim",Race.HUMAN);
+new Birthplace(65L,"Middenland, Delberz",Race.HUMAN);
+new Birthplace(66L,"Middenland, Norderingen",Race.HUMAN);
+new Birthplace(67L,"Middenland, Holzbec",Race.HUMAN);
+new Birthplace(68L,"Middenland, Immelscheld",Race.HUMAN);
+new Birthplace(69L,"Middenland, Protzstock",Race.HUMAN);
+new Birthplace(70L,"Middenland, Sokh",Race.HUMAN);
+new Birthplace(71L,"Reikland, Altfdorf",Race.HUMAN);
+new Birthplace(72L,"Reikland, Nuln",Race.HUMAN);
+new Birthplace(73L,"Reikland, Bogenhafen",Race.HUMAN);
+new Birthplace(74L,"Reikland, Grunburg",Race.HUMAN);
+new Birthplace(75L,"Reikland, Halheim",Race.HUMAN);
+new Birthplace(76L,"Reikland, Misthausen",Race.HUMAN);
+new Birthplace(77L,"Reikland, Teufelfeuer",Race.HUMAN);
+new Birthplace(78L,"Reikland, Weissbruck",Race.HUMAN);
 
 Przydomki Elfickie:
 new Nickname(102L, "Białowłosy", Race.ELF);
