@@ -43,6 +43,7 @@ public class NameRunner implements CommandLineRunner {
         Iterable<Nickname> allNicknames = nicknameRepository.findAll();
         Iterable<NameConnector> allConnectors = nameConnectorRepository.findAll();
         Iterable<Name2ndPart> allNames2 = name2ndPartRepository.findAll();
+        Iterable<Birthplace> birthplaces = birthplaceRepository.findAll();
 
         List<Nickname> humanNicknames = filterData(allNicknames, nickname -> isHuman(nickname.getRaceNickname()));
         List<Nickname> hlaflingNicknames = filterData(allNicknames, nickname -> isHalfing(nickname.getRaceNickname()));
@@ -69,6 +70,11 @@ public class NameRunner implements CommandLineRunner {
         List<Name2ndPart> dwarfsName2 = filterData(allNames2, race -> isDwarf(race.getRace())).stream().collect(Collectors.toList());
         List<Name2ndPart> halflingName2 = filterData(allNames2, race -> isHalfing(race.getRace())).stream().collect(Collectors.toList());
 
+        List<Birthplace> dwarfBirthplaces = filterData(birthplaces, race -> isDwarf(race.getRace())).stream().collect(Collectors.toList());
+        List<Birthplace> elfBirthplaces = filterData(birthplaces, race -> isElf(race.getRace())).stream().collect(Collectors.toList());
+        List<Birthplace> halaflingBirthplaces = filterData(birthplaces, race -> isHalfing(race.getRace())).stream().collect(Collectors.toList());
+        List<Birthplace> allBirthplaces = StreamSupport.stream(birthplaces.spliterator(), false).collect(Collectors.toList());
+
         System.out.println("Male human Names: " + humanMaleNames.size());
         System.out.println("Female human Names: " + humanFemaleNames.size());
 
@@ -94,6 +100,11 @@ public class NameRunner implements CommandLineRunner {
         System.out.println("Elf name2: " + elfName2.size());
         System.out.println("Dwarf name2: " + dwarfsName2.size());
         System.out.println("Halfling name2: " + halflingName2.size());
+
+        System.out.println("Dwarf birthplaces: " + dwarfBirthplaces.size());
+        System.out.println("Elf birthplaces: " + elfBirthplaces.size());
+        System.out.println("Hlafling birthplaces: " + halaflingBirthplaces.size());
+        System.out.println("All birthplaces: " + allBirthplaces.size());
 
 //        System.out.println("All names: " + allNames);
 //        System.out.println("All bothDwarves names: " + dwarfBothNames);

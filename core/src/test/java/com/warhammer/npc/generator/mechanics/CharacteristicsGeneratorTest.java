@@ -19,7 +19,7 @@ import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-class HumanCharacteristicsGeneratorTest {
+class CharacteristicsGeneratorTest {
 
     @Mock
     DiceThrowGenerator diceThrowGenerator;
@@ -31,7 +31,7 @@ class HumanCharacteristicsGeneratorTest {
     DestinyPointsGenerator destinyPointsGenerator;
 
     @InjectMocks
-    private HumanCharacteristicsGenerator humanCharacteristicsGenerator;
+    private CharacteristicsGenerator characteristicsGenerator;
 
     @Test
     void shouldGenerateHumanMainCharacteristics() {
@@ -39,7 +39,7 @@ class HumanCharacteristicsGeneratorTest {
         when(diceThrowGenerator.twoK10PlusTwenty()).thenReturn(2 * new Random().nextInt(10) + 21);
 
         //Act
-        MainCharacteristics mainCharacteristics = humanCharacteristicsGenerator.generateHumanMainCharacteristics();
+        MainCharacteristics mainCharacteristics = characteristicsGenerator.generateHumanMainCharacteristics();
 
         //Assert
         TestUtils.isBetween(mainCharacteristics.getCombatSkills(), 22, 40);
@@ -49,12 +49,12 @@ class HumanCharacteristicsGeneratorTest {
     void shouldGenerateHumanSecondaryCharacteristics() {
         //Arrange
         when(diceThrowGenerator.twoK10PlusTwenty()).thenReturn(2 * new Random().nextInt(10) + 21);
-        MainCharacteristics mainCharacteristics = humanCharacteristicsGenerator.generateHumanMainCharacteristics();
+        MainCharacteristics mainCharacteristics = characteristicsGenerator.generateHumanMainCharacteristics();
         when(vitalityGenerator.getHumanVitality(anyInt())).thenReturn(10);
         when(destinyPointsGenerator.generateHumanDestinyPoints(anyInt())).thenReturn(2);
 
         //Act
-        SecondaryCharacteristics secondaryCharacteristics = humanCharacteristicsGenerator.generateHumanSecondaryCharacteristics(mainCharacteristics);
+        SecondaryCharacteristics secondaryCharacteristics = characteristicsGenerator.generateHumanSecondaryCharacteristics(mainCharacteristics);
 
         //Assert
         assertEquals(1, secondaryCharacteristics.getAttacks());

@@ -5,7 +5,7 @@ import com.warhammer.npc.generator.hero.characteristics.MainCharacteristics;
 import com.warhammer.npc.generator.hero.characteristics.SecondaryCharacteristics;
 import com.warhammer.npc.generator.hero.characteristics.VitalityGenerator;
 import com.warhammer.npc.generator.mechanics.DiceThrowGenerator;
-import com.warhammer.npc.generator.mechanics.HumanCharacteristicsGenerator;
+import com.warhammer.npc.generator.mechanics.CharacteristicsGenerator;
 import com.warhammer.npc.generator.testutils.TestUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest
-public class HumanCharacteristicsGeneratorIntegrationTest {
+public class CharacteristicsGeneratorIntegrationTest {
 
     @Autowired
     private DiceThrowGenerator diceThrow;
@@ -33,7 +33,7 @@ public class HumanCharacteristicsGeneratorIntegrationTest {
     public void shouldCreateMainCharacteristics() {
         //Arrange
         List<Integer> skills = new ArrayList<>();
-        HumanCharacteristicsGenerator human = new HumanCharacteristicsGenerator(diceThrow, vitalityGenerator, destinyPointsGenerator);
+        CharacteristicsGenerator human = new CharacteristicsGenerator(diceThrow, vitalityGenerator, destinyPointsGenerator);
 
         //Act
         MainCharacteristics mainCharacteristics = human.generateHumanMainCharacteristics();
@@ -53,7 +53,7 @@ public class HumanCharacteristicsGeneratorIntegrationTest {
     @Test
     public void shouldCreateSecondaryCharacteristics() {
         //Arrange
-        HumanCharacteristicsGenerator human = new HumanCharacteristicsGenerator(diceThrow, vitalityGenerator, destinyPointsGenerator);
+        CharacteristicsGenerator human = new CharacteristicsGenerator(diceThrow, vitalityGenerator, destinyPointsGenerator);
         MainCharacteristics mainCharacteristics = human.generateHumanMainCharacteristics();
 
         //Act

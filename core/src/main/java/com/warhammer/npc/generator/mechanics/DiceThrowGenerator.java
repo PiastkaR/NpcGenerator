@@ -31,4 +31,13 @@ public class DiceThrowGenerator {
         return 2 * k10Throw() + 20;
     }
 
+    public int twoK10PlusThirty() {
+        return 2 * k10Throw() + 20;
+    }
+
+    public int twoK10PlusTen() {
+        return 2 * k10Throw() + 20;
+    }
+
+
 }
