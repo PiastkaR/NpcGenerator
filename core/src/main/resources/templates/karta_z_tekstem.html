@@ -172,7 +172,7 @@ body {margin-top: 0px;margin-left: 0px;}
 .p54{text-align: center;padding-left: 10px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
 .p55{text-align: left;padding-left: 228px;margin-top: 0px;margin-bottom: 0px;}
 .p56{text-align: left;padding-left: 142px;margin-top: 78px;margin-bottom: 0px;}
-.p57{text-align: left;padding-left: 6px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p57{text-align: left;padding-left: 1px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
 .p58{text-align: right;padding-right: 38px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
 .p59{text-align: left;padding-left: 74px;margin-top: 15px;margin-bottom: 0px;}
 .p60{text-align: right;padding-right: 31px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
@@ -312,12 +312,12 @@ body {margin-top: 0px;margin-left: 0px;}
 .td102{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 39px;vertical-align: bottom;}
 .td103{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 103px;vertical-align: bottom;}
 .td104{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 103px;vertical-align: bottom;}
-.td105{padding: 0px;margin: 0px;width: 68px;vertical-align: bottom;}
+.td105{;padding: 0px;margin: 0px;width: 48px;vertical-align: bottom;}
 .td106{border-right: #000000 1px solid;border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 99px;vertical-align: bottom;}
 .td107{padding: 0px;margin: 0px;width: 77px;vertical-align: bottom;}
 .td108{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 89px;vertical-align: bottom;}
-.td109{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 68px;vertical-align: bottom;}
-.td110{border-bottom: #000000 1px solid;padding: 0px;margin: 0px;width: 77px;vertical-align: bottom;}
+.td109{padding: 0px;margin: 0px;width: 68px;vertical-align: bottom;}
+.td110{padding: 0px;margin: 0px;width: 77px;vertical-align: bottom;}
 .td111{border-right: #000000 1px solid;padding: 0px;margin: 0px;width: 99px;vertical-align: bottom;}
 .td112{padding: 0px;margin: 0px;width: 89px;vertical-align: bottom;}
 .td113{padding: 0px;margin: 0px;width: 58px;vertical-align: bottom;}
@@ -394,12 +394,12 @@ body {margin-top: 0px;margin-left: 0px;}
 .tr33{height: 51px;}
 .tr34{height: 32px;}
 
-.t0{width: 334px;margin-left: 1px;font: 9px 'Arial';}
-.t1{width: 335px;margin-top: 2px;font: 15px 'Helvetica';}
+.t0{table-layout:fixed; width: 100% margin-left: 1px;font: 9px 'Arial';}
+.t1{width: 334px;margin-top: 2px;font: 15px 'Helvetica';}
 .t2{width: 310px;margin-left: 12px;margin-top: 1px;font: 16px 'Helvetica';}
 .t3{width: 336px;margin-top: 4px;font: 15px 'Helvetica';}
 .t4{width: 336px;margin-top: 3px;font: 15px 'Helvetica';}
-.t5{width: 334px;margin-top: 1px;font: 9px 'Arial';}
+.t5{table-layout: auto;width: 100%;margin-top: 1px;font: 9px 'Arial';}
 .t6{width: 308px;margin-left: 2px;font: 9px 'Arial';}
 .t7{width: 280px;margin-left: 27px;margin-top: 89px;font: 9px 'Arial';}
 .t8{width: 288px;margin-left: 23px;font: 11px 'Arial';}
@@ -409,6 +409,8 @@ body {margin-top: 0px;margin-left: 0px;}
 .t12{width: 306px;margin-left: 12px;margin-top: 16px;font: 15px 'Helvetica';}
 .t13{width: 213px;margin-top: 1px;font: 8px 'Arial';}
 .t14{width: 552px;font: bold 7px 'Arial';}
+
+.15{width: 334px;margin-top: 2px;font: 15px 'Helvetica';}
 
 </STYLE>
 </HEAD>
@@ -426,7 +428,7 @@ body {margin-top: 0px;margin-left: 0px;}
 <TABLE cellpadding=0 cellspacing=0 class="t0">
 <TR>
 	<TD class="tr0 td0"><P class="p1 ft1">Imię:</P></TD>
-	<TD rowspan=2 class="tr1 td1"><P class="p2 ft3">Imi<SPAN class="ft2">ę </SPAN>Postaci</P></TD>
+	<TD rowspan=2 class="tr1 td1"><P class="p2 ft3"><left th:text="${name}"/><SPAN class="ft2"></SPAN></P></TD>
 </TR>
 <TR>
 	<TD class="tr2 td2"><P class="p3 ft4">&nbsp;</P></TD>
@@ -1130,19 +1132,19 @@ body {margin-top: 0px;margin-left: 0px;}
 <P class="p56 ft0">GRACZ</P>
 <TABLE cellpadding=0 cellspacing=0 class="t5">
 <TR>
-	<TD class="tr24 td105"><P class="p1 ft1">Imię:</P></TD>
-	<TD rowspan=2 class="tr25 td106"><P class="p57 ft3">Rafcio</P></TD>
-	<TD class="tr24 td107"><P class="p42 ft1">Mistrz Gry:</P></TD>
-	<TD rowspan=2 class="tr25 td108"><P class="p11 ft3">Rafa<SPAN class="ft2">ł</SPAN></P></TD>
+	<TD rowspan=2 class="tr24 td108"><P style="padding-left:3px;" class="ft1">Imię:</P></TD>
+	<TD rowspan=2 class="tr25 td106"><P class="ft3"><left th:text="${userName}"/></P></TD>
+	<TD rowspan=2 class="tr24 td108"><P class="ft1">Mistrz Gry:</P></TD>
+	<TD rowspan=2 class="tr25 td108"><P class="ft3">Rafał</P></TD>
 </TR>
 <TR>
 	<TD class="tr2 td109"><P class="p3 ft4">&nbsp;</P></TD>
 	<TD class="tr2 td110"><P class="p3 ft4">&nbsp;</P></TD>
 </TR>
 <TR>
-	<TD class="tr3 td105"><P class="p1 ft1">Kampania:</P></TD>
+	<TD rowspan=2  class="tr3 td105"><P class="p1 ft1">Kampania:</P></TD>
 	<TD rowspan=2 class="tr17 td111"><P class="p3 ft3">KampaniaX</P></TD>
-	<TD class="tr3 td107"><P class="p42 ft1">Rok kampanii:</P></TD>
+	<TD rowspan=2  class="tr3 td107"><P class="p42 ft1">Rok kampanii:</P></TD>
 	<TD rowspan=2 class="tr17 td112"><P class="p58 ft3">2522</P></TD>
 </TR>
 <TR>
@@ -1159,18 +1161,18 @@ body {margin-top: 0px;margin-left: 0px;}
 <P class="p59 ft0">PUNKTY DOŚWIADCZENIA</P>
 <TABLE cellpadding=0 cellspacing=0 class="t6">
 <TR>
-	<TD class="tr15 td113"><P class="p15 ft1">Obecne:</P></TD>
+	<TD class="p3 tr22 td70"><P class="ft1 ">Obecne:</P></TD>
 	<TD rowspan=2 class="tr22 td70"><P class="p60 ft17">0</P></TD>
-	<TD class="tr15 td114"><P class="p3 ft1">Razem:</P></TD>
+	<TD rowspan=2 class="tr15 td114"><P class="p3 ft1">Razem:</P></TD>
 	<TD class="tr15 td73"><P class="p3 ft18">&nbsp;</P></TD>
 	<TD rowspan=2 class="tr22 td115"><P class="p61 ft24">1500</P></TD>
 	<TD class="tr15 td116"><P class="p3 ft18">&nbsp;</P></TD>
 </TR>
 <TR>
-	<TD class="tr2 td113"><P class="p3 ft4">&nbsp;</P></TD>
-	<TD class="tr2 td114"><P class="p3 ft4">&nbsp;</P></TD>
-	<TD class="tr2 td73"><P class="p3 ft4">&nbsp;</P></TD>
-	<TD class="tr2 td116"><P class="p3 ft4">&nbsp;</P></TD>
+<!--	<TD class="tr2 td113"><P class="p3 ft4">&nbsp;</P></TD>-->
+<!--	<TD class="tr2 td114"><P class="p3 ft4">&nbsp;</P></TD>-->
+<!--	<TD class="tr2 td73"><P class="p3 ft4">&nbsp;</P></TD>-->
+<!--	<TD class="tr2 td116"><P class="p3 ft4">&nbsp;</P></TD>-->
 </TR>
 <TR>
 	<TD class="tr26 td113"><P class="p3 ft18">&nbsp;</P></TD>
@@ -1415,7 +1417,7 @@ body {margin-top: 0px;margin-left: 0px;}
 <P class="p75 ft12">©2005 Games Workshop, Ltd. wyraża zgodę na wykonanie kopii tej strony tylko do użytku osobistego.</P>
 </DIV>
 <DIV id="id1_3">
-<P class="p76 ft47">KOSMIT 2013 www.kosmitpaczy.pl</P>
+<P class="p76 ft47">TuRwE 2021 ©</P>
 </DIV>
 </DIV>
 <DIV id="page_2">
@@ -2301,11 +2303,10 @@ body {margin-top: 0px;margin-left: 0px;}
 <TABLE cellpadding=0 cellspacing=0 class="t14">
 <TR>
 	<TD class="tr3 td148"><P class="p3 ft12">©2005 Games Workshop, Ltd. wyraża zgodę na wykonanie kopii tej strony tylko do użytku osobistego.</P></TD>
-	<TD class="tr3 td149"><P class="p40 ft45">KOSMIT 2013</P></TD>
+	<TD class="tr3 td149"><P class="p40 ft45">TuRwE 2021 ©</P></TD>
 </TR>
 <TR>
 	<TD class="tr13 td148"><P class="p3 ft18">&nbsp;</P></TD>
-	<TD class="tr13 td149"><P class="p40 ft45">www.kosmitpaczy.pl</P></TD>
 </TR>
 </TABLE>
 </DIV>
