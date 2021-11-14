@@ -1,5 +1,6 @@
 package com.warhammer.npc.generator.model;
 
+import com.warhammer.npc.generator.hero.description.Race;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import reactor.util.annotation.Nullable;
@@ -14,6 +15,13 @@ public class FullName implements Serializable {
     private String nickname;
     @Nullable
     private String connector;
+
+    public String getCorrectName(Race race) {
+        if (race == Race.ELF) {
+            return baseName + " " + connector + " " + nickname;
+        } else
+            return baseName + " " + nickname;
+    }
 
     @Override
     public String toString() {

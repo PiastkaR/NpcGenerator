@@ -1,5 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<HTML>
+<HTML xmlns:th="http://www.thymeleaf.org">
 <HEAD>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <TITLE>pdf-html</TITLE>
@@ -275,8 +274,8 @@ body {margin-top: 0px;margin-left: 0px;}
 <DIV id="id1_1">
 <DIV id="id1_1_1">
 <P class="p0 ft0">BOHATER</P>
-<P class="p1 ft1">Imię:</P>
-<P class="p2 ft1">Rasa:</P>
+<P class="p1 ft1">Imię:<left th:text="${name}"/></P>
+<P class="p2 ft1">Rasa:  <left th:text="${race}"/> </P>
 <P class="p2 ft1">Obecna profesja:</P>
 <P class="p3 ft1">Poprzednia profesja:</P>
 <TABLE cellpadding=0 cellspacing=0 class="t0">
@@ -285,24 +284,24 @@ body {margin-top: 0px;margin-left: 0px;}
 	<TD class="tr0 td1"><P class="p4 ft0">OPIS BOHATERA</P></TD>
 </TR>
 <TR>
-	<TD class="tr1 td0"><P class="p5 ft1">Wiek:</P></TD>
-	<TD class="tr1 td1"><P class="p6 ft1">Płeć:</P></TD>
+	<TD class="tr1 td0"><P class="p5 ft1">Wiek:<left th:text="${age}" /></P></TD>
+	<TD class="tr1 td1"><P class="p6 ft1">Płeć: <left th:text="${gender}" /></P></TD>
 </TR>
 <TR>
 	<TD class="tr2 td2"><P class="p4 ft3">&nbsp;</P></TD>
 	<TD class="tr2 td3"><P class="p4 ft3">&nbsp;</P></TD>
 </TR>
 <TR>
-	<TD class="tr3 td0"><P class="p7 ft1">Kolor oczu:</P></TD>
-	<TD class="tr3 td1"><P class="p6 ft1">Waga:</P></TD>
+	<TD class="tr3 td0"><P class="p7 ft1">Kolor oczu: <left th:text="${eyes}" /></P></TD>
+	<TD class="tr3 td1"><P class="p6 ft1">Waga:<left th:text="${weight}" /></P></TD>
 </TR>
 <TR>
 	<TD class="tr2 td2"><P class="p4 ft3">&nbsp;</P></TD>
 	<TD class="tr2 td3"><P class="p4 ft3">&nbsp;</P></TD>
 </TR>
 <TR>
-	<TD class="tr4 td0"><P class="p7 ft4">Kolor włosów:</P></TD>
-	<TD class="tr4 td0"><P class="p6 ft4">Wzrost:</P></TD>
+	<TD class="tr4 td0"><P class="p7 ft4">Kolor włosów:<left th:text="${hair}" /></P></TD>
+	<TD class="tr4 td0"><P class="p6 ft4">Wzrost:<left th:text="${height}" /></P></TD>
 </TR>
 </TABLE>
 </DIV>
@@ -314,12 +313,12 @@ body {margin-top: 0px;margin-left: 0px;}
 	<TD class="tr0 td5"><P class="p9 ft0">GRACZ</P></TD>
 </TR>
 <TR>
-	<TD class="tr5 td4"><P class="p4 ft1">Imię:</P></TD>
-	<TD class="tr5 td5"><P class="p10 ft1">Mistrz Gry:</P></TD>
+	<TD class="tr5 td4"><P class="p4 ft1">Imię:<left th:text="${userName}" /></P></TD>
+	<TD class="tr5 td5"><P class="p10 ft1">Mistrz Gry: Rafał </P></TD>
 </TR>
 <TR>
 	<TD class="tr6 td4"><P class="p4 ft1">Kampania:</P></TD>
-	<TD class="tr6 td5"><P class="p10 ft1">Rok kampanii:</P></TD>
+	<TD class="tr6 td5"><P class="p10 ft1">Rok kampanii: 2522</P></TD>
 </TR>
 <TR>
 	<TD class="tr7 td4"><P class="p4 ft2">&nbsp;</P></TD>
@@ -332,15 +331,15 @@ body {margin-top: 0px;margin-left: 0px;}
 <DIV id="id1_2_1">
 <TABLE cellpadding=0 cellspacing=0 class="t2">
 <TR>
-	<TD class="tr8 td6"><P class="p7 ft1">Znak gwiezdny:</P></TD>
-	<TD class="tr8 td6"><P class="p7 ft1">Rodzeństwo:</P></TD>
+	<TD class="tr8 td6"><P class="p7 ft1">Znak gwiezdny:<left th:text="${star}" /></P></TD>
+	<TD class="tr8 td6"><P class="p7 ft1">Rodzeństwo:<left th:text="${siblings}" /></P></TD>
 </TR>
 <TR>
 	<TD class="tr9 td8"><P class="p4 ft7">&nbsp;</P></TD>
 	<TD class="tr9 td9"><P class="p4 ft7">&nbsp;</P></TD>
 </TR>
 <TR>
-	<TD class="tr4 td6"><P class="p7 ft4">Miejsce urodzenia:</P></TD>
+	<TD class="tr4 td6"><P class="p7 ft4">Miejsce urodzenia:<left th:text="${birthplace}" /></P></TD>
 	<TD class="tr4 td7"><P class="p4 ft8">&nbsp;</P></TD>
 </TR>
 <TR>
@@ -348,7 +347,7 @@ body {margin-top: 0px;margin-left: 0px;}
 	<TD class="tr4 td9"><P class="p4 ft8">&nbsp;</P></TD>
 </TR>
 <TR>
-	<TD class="tr3 td6"><P class="p7 ft1">Znaki szczególne:</P></TD>
+	<TD class="tr3 td6"><P class="p7 ft1">Znaki szczególne:<left th:text="${markings}" /></P></TD>
 	<TD class="tr3 td7"><P class="p4 ft2">&nbsp;</P></TD>
 </TR>
 </TABLE>
@@ -407,20 +406,30 @@ body {margin-top: 0px;margin-left: 0px;}
 </DIV>
 <DIV id="id1_4">
 <DIV id="id1_4_1">
-<TABLE cellpadding=0 cellspacing=0 class="t5">
-<TR>
-	<TD class="tr4 td14"></TD>
-	<TD class="tr4 td15"><P class="p100 ft10">Cechy <br>drugorzędne:</P></TD>
-	<TD rowspan=2 class="tr10 td23"><P class="p100 ft11">A</P></TD>
-	<TD rowspan=2 class="tr10 td23"><P class="p100 ft11">Żyw</P></TD>
-	<TD rowspan=2 class="tr10 td23"><P class="p100 ft11">S</P></TD>
-	<TD rowspan=2 class="tr10 td23"><P class="p100 ft11">Wt</P></TD>
-	<TD rowspan=2 class="tr10 td23"><P class="p100 ft11">Sz</P></TD>
-	<TD rowspan=2 class="tr10 td23"><P class="p100 ft11">Mag</P></TD>
-	<TD rowspan=2 class="tr10 td23"><P class="p100 ft11">PO</P></TD>
-	<TD rowspan=2 class="tr10 td23"><P class="p100 ft11">PP</P></TD>
-</TR>
-</TABLE>
+    <TABLE cellpadding=0 cellspacing=0 class="t5">
+        <TR>
+            <TH class="tr4 td15"><P class="p100 ft10">Cechy drugorzędne:</P></TH>
+            <TH  class="tr10 td23"><P class="p100 ft11">A</P></TH>
+            <TH class="tr10 td23"><P class="p100 ft11">Żyw</P></TH>
+            <TH class="tr10 td23"><P class="p100 ft11">S</P></TH>
+            <TH class="tr10 td23"><P class="p100 ft11">Wt</P></TH>
+            <TH class="tr10 td23"><P class="p100 ft11">Sz</P></TH>
+            <TH class="tr10 td23"><P class="p100 ft11">Mag</P></TH>
+            <TH  class="tr10 td23"><P class="p100 ft11">PO</P></TH>
+            <TH class="tr10 td23"><P class="p100 ft11">PP</P></TH>
+        </TR>
+        <TR>
+			<TD></TD>te</TD>
+			<TD></TD>te</TD>
+			<TD></TD>te</TD>
+			<TD></TD>te</TD>
+			<TD></TD>te</TD>
+			<TD></TD>te</TD>
+			<TD></TD>te</TD>
+			<TD></TD>te</TD>
+			<TD></TD>te</TD>
+        </TR>
+    </TABLE>
 <P class="p24 ft10">Początkowa</P>
 <P class="p25 ft12">Schemat</P>
 <P class="p26 ft10">Rozwoju</P>
@@ -430,7 +439,7 @@ body {margin-top: 0px;margin-left: 0px;}
 </TR>
 </TABLE>
 <P class="p27 ft0">BROŃ</P>
-	<P style="color:white"class="p24 ft30">empty</P>
+<!--	<P style="color:white"class="p24 ft30">empty</P>-->
 	<TABLE cellpadding=0 cellspacing=0 class="t7">
 <TR>
 	<TD rowspan=2 class="tr13 td22"><P class="p4 ft1">Nazwa</P></TD>
