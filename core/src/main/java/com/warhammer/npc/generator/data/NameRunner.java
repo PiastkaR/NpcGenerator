@@ -3,7 +3,6 @@ package com.warhammer.npc.generator.data;
 import com.warhammer.npc.generator.hero.description.Gender;
 import com.warhammer.npc.generator.hero.description.Race;
 import com.warhammer.npc.generator.hero.repository.*;
-import com.warhammer.npc.generator.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -26,6 +25,16 @@ public class NameRunner implements CommandLineRunner {
     private Name2ndPartRepository name2ndPartRepository;
     @Autowired
     private BirthplaceRepository birthplaceRepository;
+    @Autowired
+    private ArmourRepository armourRepository;
+    @Autowired
+    private WeaponRepository weaponRepository;
+    @Autowired
+    private SkillRepository skillRepository;
+    @Autowired
+    private AbilityRepository abilityRepository;
+    @Autowired
+    private ProfessionRepository professionRepository;
 
     @Override
     public void run(String... args) throws Exception {
@@ -39,72 +48,81 @@ public class NameRunner implements CommandLineRunner {
 //        System.out.println("All male names: " + all);
 //        nameRepository.deleteAll(all);
 
-        Iterable<Name> allNames = nameRepository.findAll();
-        Iterable<Nickname> allNicknames = nicknameRepository.findAll();
-        Iterable<NameConnector> allConnectors = nameConnectorRepository.findAll();
-        Iterable<Name2ndPart> allNames2 = name2ndPartRepository.findAll();
-        Iterable<Birthplace> birthplaces = birthplaceRepository.findAll();
+//        professionRepository.save(new Profession(1L,"Pustelnik",	CharactersClass.SCHOLAR,List.of(Race.HUMAN), new MainCharacteristics(0,5,5,10,10,0,10,0),	new SecondaryCharacteristics(0,2,0,0,0,0,0,0), Collections.emptyList(),List.of("Sztuka przetrwania", "Przeszukiwanie", "Skradanie się"), List.of("Chodu!", "Twardziel", "Odporność na trucizny", "Wędrowiec","Odwaga")));
+//        professionRepository.save(new Profession(82L,"Szermierz Estalijski",	CharactersClass.WARRIOR,	List.of(Race.HUMAN),	new MainCharacteristics(15,0,5,5,10,5,0,0),	new SecondaryCharacteristics(1,2,0,0,0,0,0,0),	List.of("Szpada", "ubranie najlepszej jakości", "perfumy"," misktura leczenia"),	List.of("Czytanie i pisanie", "Nauka(anatomia)", "Unik", "Wiedza (Estalia)", "Język Estalijski"),	List.of("Szybki refleks", "Broń specjalna (szermiercza)", "Silny cios", "Morderczy atak")));
+//        professionRepository.save(new Profession(77L,"Ochroniarz",CharactersClass.WARRIOR,List.of(Race.HUMAN,Race.DWARF,Race.ELF),	new MainCharacteristics(10,0,5,5,5,0,0,0),	new SecondaryCharacteristics(1,3,0,0,0,0,0,0),	List.of("Topór do rzucania", "Kastet","skórzana kurta", "Puklerz"), List.of("Leczenie", "Spostrzegawczość", "Unik", "Zastraszanie"),	List.of("Bardzo silny", "Bijatyka", "Broń specjalna(parująca)", "Broń specjalna(rzucana)", "Ogłuszanie", "Szybkie wyciągniecie")));
+//        professionRepository.save(new Profession(61L,"Podżegacz",CharactersClass.CRIMINAL,List.of(Race.HUMAN,Race.DWARF,Race.HALFLING),	new MainCharacteristics(5,5,0,0,5,10,0,10),	new SecondaryCharacteristics(0,2,0,0,0,0,0,0),	List.of("skórzana kurta", "ubranie dobnrej jakości", "12 ulotek"),	List.of("Czytanie i pisanie", "Plotkowanie", "Nauka(prawo)", "przekonywanie", "spostrzegawczość", "Ukrywanie się", "Język Bretoński", "Język Staroświatowy"),	List.of("Chodu!","Opanowanie", "Przemawianie")));
+//        professionRepository.save(new Profession(23L,"Zarządca",	CharactersClass.COMMONER,List.of(Race.HUMAN, Race.HALFLING),	new MainCharacteristics(5,5,5,0,0,10,5,5),   new SecondaryCharacteristics(0,2,0,0,0,0,0,0),	List.of("skórzana kurta", "skórzany hełm", "ubranie dobrej jakości", "koń z siodłem i uprzężą"), List.of("Czytanie i pisanie", "Nawigacja", "Jeździectwo", "Nauka (prawo)", "Opieka nad zwierzętami", "Przekonywanie", "Spostrzegawczość", "Zastraszanie"),List.of(	"Etykieta", "Przemawianie")));
+//        weaponRepository.save(new Weapon(41L, "Topór do rzucania",40,"rzucana","S-2","8/-","akcja",Collections.EMPTY_LIST));
 
-        List<Nickname> humanNicknames = filterData(allNicknames, nickname -> isHuman(nickname.getRaceNickname()));
-        List<Nickname> hlaflingNicknames = filterData(allNicknames, nickname -> isHalfing(nickname.getRaceNickname()));
-        List<Nickname> elfNicknames = filterData(allNicknames, nickname -> isElf(nickname.getRaceNickname()));
-
-        List<Name> humanMaleNames = filterData(allNames, race -> isHuman(race.getRace())).stream().filter(name -> isMale(name.getGender())).collect(Collectors.toList());
-        List<Name> humanFemaleNames = filterData(allNames, race -> isHuman(race.getRace())).stream().filter(name -> isFemale(name.getGender())).collect(Collectors.toList());
-
-        List<Name2ndPart> halflingMaleNames = filterData(allNames2, race -> isHalfing(race.getRace())).stream().filter(name -> isMale(name.getGender())).collect(Collectors.toList());
-        List<Name2ndPart> halflingFemaleNames = filterData(allNames2, race -> isHalfing(race.getRace())).stream().filter(name -> isFemale(name.getGender())).collect(Collectors.toList());
-        List<Name> halflingBothNames = filterData(allNames, race -> isHalfing(race.getRace())).stream().filter(name -> isBoth(name.getGender())).collect(Collectors.toList());
-
-        List<Name2ndPart> dwarfMaleNames = filterData(allNames2, race -> isDwarf(race.getRace())).stream().filter(name -> isMale(name.getGender())).collect(Collectors.toList());
-        List<Name2ndPart> dwarfFemaleNames = filterData(allNames2, race -> isDwarf(race.getRace())).stream().filter(name -> isFemale(name.getGender())).collect(Collectors.toList());
-        List<Name> dwarfBothNames = filterData(allNames, race -> isDwarf(race.getRace())).stream().filter(name -> isBoth(name.getGender())).collect(Collectors.toList());
-
-        List<Name2ndPart> elfMaleNames = filterData(allNames2, race -> isElf(race.getRace())).stream().filter(name -> isMale(name.getGender())).collect(Collectors.toList());
-        List<Name2ndPart> elfFemaleNames = filterData(allNames2, race -> isElf(race.getRace())).stream().filter(name -> isFemale(name.getGender())).collect(Collectors.toList());
-        List<Name> elfBothNames = filterData(allNames, race -> isElf(race.getRace())).stream().filter(name -> isBoth(name.getGender())).collect(Collectors.toList());
-
-        List<NameConnector> elfConnectors = filterData(allConnectors, race -> isElf(race.getRaceConnector())).stream().collect(Collectors.toList());
-
-        List<Name2ndPart> elfName2 = filterData(allNames2, race -> isElf(race.getRace())).stream().collect(Collectors.toList());
-        List<Name2ndPart> dwarfsName2 = filterData(allNames2, race -> isDwarf(race.getRace())).stream().collect(Collectors.toList());
-        List<Name2ndPart> halflingName2 = filterData(allNames2, race -> isHalfing(race.getRace())).stream().collect(Collectors.toList());
-
-        List<Birthplace> dwarfBirthplaces = filterData(birthplaces, race -> isDwarf(race.getRace())).stream().collect(Collectors.toList());
-        List<Birthplace> elfBirthplaces = filterData(birthplaces, race -> isElf(race.getRace())).stream().collect(Collectors.toList());
-        List<Birthplace> halaflingBirthplaces = filterData(birthplaces, race -> isHalfing(race.getRace())).stream().collect(Collectors.toList());
-        List<Birthplace> allBirthplaces = StreamSupport.stream(birthplaces.spliterator(), false).collect(Collectors.toList());
-
-        System.out.println("Male human Names: " + humanMaleNames.size());
-        System.out.println("Female human Names: " + humanFemaleNames.size());
-
-        System.out.println("Male halfling Names: " + halflingMaleNames.size());
-        System.out.println("Female halfling Names: " + halflingFemaleNames.size());
-        System.out.println("Both halfling Names: " + halflingBothNames.size());
-
-        System.out.println("Male dwarf Names: " + dwarfMaleNames.size());
-        System.out.println("Female dwarf Names: " + dwarfFemaleNames.size());
-        System.out.println("Both dwarf Names: " + dwarfBothNames.size());
-
-
-        System.out.println("Male elf Names: " + elfMaleNames.size());
-        System.out.println("Female elf Names: " + elfFemaleNames.size());
-        System.out.println("Both elf Names: " + elfBothNames.size());
-
-        System.out.println("Human Nicknames: " + humanNicknames.size());
-        System.out.println("Halfling Nicknames: " + hlaflingNicknames.size());
-        System.out.println("Elf Nicknames: " + elfNicknames.size());
-
-        System.out.println("Elf connectors: " + elfConnectors.size());
-
-        System.out.println("Elf name2: " + elfName2.size());
-        System.out.println("Dwarf name2: " + dwarfsName2.size());
-        System.out.println("Halfling name2: " + halflingName2.size());
-
-        System.out.println("Dwarf birthplaces: " + dwarfBirthplaces.size());
-        System.out.println("Elf birthplaces: " + elfBirthplaces.size());
-        System.out.println("Hlafling birthplaces: " + halaflingBirthplaces.size());
-        System.out.println("All birthplaces: " + allBirthplaces.size());
+//        Iterable<Profession> all = professionRepository.findAll();
+//        System.out.println(all);
+//        Iterable<Name> allNames = nameRepository.findAll();
+//        Iterable<Nickname> allNicknames = nicknameRepository.findAll();
+//        Iterable<NameConnector> allConnectors = nameConnectorRepository.findAll();
+//        Iterable<Name2ndPart> allNames2 = name2ndPartRepository.findAll();
+//        Iterable<Birthplace> birthplaces = birthplaceRepository.findAll();
+//
+//        List<Nickname> humanNicknames = filterData(allNicknames, nickname -> isHuman(nickname.getRaceNickname()));
+//        List<Nickname> hlaflingNicknames = filterData(allNicknames, nickname -> isHalfing(nickname.getRaceNickname()));
+//        List<Nickname> elfNicknames = filterData(allNicknames, nickname -> isElf(nickname.getRaceNickname()));
+//
+//        List<Name> humanMaleNames = filterData(allNames, race -> isHuman(race.getRace())).stream().filter(name -> isMale(name.getGender())).collect(Collectors.toList());
+//        List<Name> humanFemaleNames = filterData(allNames, race -> isHuman(race.getRace())).stream().filter(name -> isFemale(name.getGender())).collect(Collectors.toList());
+//
+//        List<Name2ndPart> halflingMaleNames = filterData(allNames2, race -> isHalfing(race.getRace())).stream().filter(name -> isMale(name.getGender())).collect(Collectors.toList());
+//        List<Name2ndPart> halflingFemaleNames = filterData(allNames2, race -> isHalfing(race.getRace())).stream().filter(name -> isFemale(name.getGender())).collect(Collectors.toList());
+//        List<Name> halflingBothNames = filterData(allNames, race -> isHalfing(race.getRace())).stream().filter(name -> isBoth(name.getGender())).collect(Collectors.toList());
+//
+//        List<Name2ndPart> dwarfMaleNames = filterData(allNames2, race -> isDwarf(race.getRace())).stream().filter(name -> isMale(name.getGender())).collect(Collectors.toList());
+//        List<Name2ndPart> dwarfFemaleNames = filterData(allNames2, race -> isDwarf(race.getRace())).stream().filter(name -> isFemale(name.getGender())).collect(Collectors.toList());
+//        List<Name> dwarfBothNames = filterData(allNames, race -> isDwarf(race.getRace())).stream().filter(name -> isBoth(name.getGender())).collect(Collectors.toList());
+//
+//        List<Name2ndPart> elfMaleNames = filterData(allNames2, race -> isElf(race.getRace())).stream().filter(name -> isMale(name.getGender())).collect(Collectors.toList());
+//        List<Name2ndPart> elfFemaleNames = filterData(allNames2, race -> isElf(race.getRace())).stream().filter(name -> isFemale(name.getGender())).collect(Collectors.toList());
+//        List<Name> elfBothNames = filterData(allNames, race -> isElf(race.getRace())).stream().filter(name -> isBoth(name.getGender())).collect(Collectors.toList());
+//
+//        List<NameConnector> elfConnectors = filterData(allConnectors, race -> isElf(race.getRaceConnector())).stream().collect(Collectors.toList());
+//
+//        List<Name2ndPart> elfName2 = filterData(allNames2, race -> isElf(race.getRace())).stream().collect(Collectors.toList());
+//        List<Name2ndPart> dwarfsName2 = filterData(allNames2, race -> isDwarf(race.getRace())).stream().collect(Collectors.toList());
+//        List<Name2ndPart> halflingName2 = filterData(allNames2, race -> isHalfing(race.getRace())).stream().collect(Collectors.toList());
+//
+//        List<Birthplace> dwarfBirthplaces = filterData(birthplaces, race -> isDwarf(race.getRace())).stream().collect(Collectors.toList());
+//        List<Birthplace> elfBirthplaces = filterData(birthplaces, race -> isElf(race.getRace())).stream().collect(Collectors.toList());
+//        List<Birthplace> halaflingBirthplaces = filterData(birthplaces, race -> isHalfing(race.getRace())).stream().collect(Collectors.toList());
+//        List<Birthplace> allBirthplaces = StreamSupport.stream(birthplaces.spliterator(), false).collect(Collectors.toList());
+//
+//        System.out.println("Male human Names: " + humanMaleNames.size());
+//        System.out.println("Female human Names: " + humanFemaleNames.size());
+//
+//        System.out.println("Male halfling Names: " + halflingMaleNames.size());
+//        System.out.println("Female halfling Names: " + halflingFemaleNames.size());
+//        System.out.println("Both halfling Names: " + halflingBothNames.size());
+//
+//        System.out.println("Male dwarf Names: " + dwarfMaleNames.size());
+//        System.out.println("Female dwarf Names: " + dwarfFemaleNames.size());
+//        System.out.println("Both dwarf Names: " + dwarfBothNames.size());
+//
+//
+//        System.out.println("Male elf Names: " + elfMaleNames.size());
+//        System.out.println("Female elf Names: " + elfFemaleNames.size());
+//        System.out.println("Both elf Names: " + elfBothNames.size());
+//
+//        System.out.println("Human Nicknames: " + humanNicknames.size());
+//        System.out.println("Halfling Nicknames: " + hlaflingNicknames.size());
+//        System.out.println("Elf Nicknames: " + elfNicknames.size());
+//
+//        System.out.println("Elf connectors: " + elfConnectors.size());
+//
+//        System.out.println("Elf name2: " + elfName2.size());
+//        System.out.println("Dwarf name2: " + dwarfsName2.size());
+//        System.out.println("Halfling name2: " + halflingName2.size());
+//
+//        System.out.println("Dwarf birthplaces: " + dwarfBirthplaces.size());
+//        System.out.println("Elf birthplaces: " + elfBirthplaces.size());
+//        System.out.println("Hlafling birthplaces: " + halaflingBirthplaces.size());
+//        System.out.println("All birthplaces: " + allBirthplaces.size());
 
 //        System.out.println("All names: " + allNames);
 //        System.out.println("All bothDwarves names: " + dwarfBothNames);

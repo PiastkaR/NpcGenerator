@@ -1,16 +1,22 @@
 package com.warhammer.npc.generator.hero;
 
+import com.warhammer.npc.generator.hero.abilities.Ability;
 import com.warhammer.npc.generator.hero.description.Gender;
 import com.warhammer.npc.generator.hero.description.Race;
+import com.warhammer.npc.generator.hero.skills.Skill;
 import com.warhammer.npc.generator.model.FullName;
-import com.warhammer.npc.generator.professions.Profession;
+import com.warhammer.npc.generator.model.Profession;
+import com.warhammer.npc.generator.model.ProfessionWrapperBuilder;
 import lombok.Getter;
+
+import java.util.List;
 
 @Getter
 public class HeroDescriptionBuilder {
+
     private FullName name;
     private Race race;
-    private Profession actualProfession;
+    private ProfessionWrapperBuilder actualProfession;
     private Profession lastProfession;
     private int age;
     private Gender gender;
@@ -22,6 +28,8 @@ public class HeroDescriptionBuilder {
     private int siblings;
     private String birthPlace;
     private String specialFeatures;
+    private List<Ability> abilities;
+    private List<Skill> skills;
 
     public HeroDescriptionBuilder withName(FullName name) {
         this.name = name;
@@ -33,7 +41,7 @@ public class HeroDescriptionBuilder {
         return this;
     }
 
-    public HeroDescriptionBuilder withActualProfession(Profession actualProfession) {
+    public HeroDescriptionBuilder withActualProfession(ProfessionWrapperBuilder actualProfession) {
         this.actualProfession = actualProfession;
         return this;
     }
@@ -93,6 +101,15 @@ public class HeroDescriptionBuilder {
         return this;
     }
 
+    public HeroDescriptionBuilder withAbilities(List<Ability> abilities) {
+        this.abilities = abilities;
+        return this;
+    }
+    public HeroDescriptionBuilder withSkills(List<Skill> skills) {
+        this.skills = skills;
+        return this;
+    }
+
     public HeroDescription build() {
         return new HeroDescription(
                 name,
@@ -108,7 +125,9 @@ public class HeroDescriptionBuilder {
                 starSign,
                 siblings,
                 birthPlace,
-                specialFeatures
+                specialFeatures,
+                abilities,
+                skills
         );
     }
 
@@ -126,6 +145,8 @@ public class HeroDescriptionBuilder {
         this.siblings = heroDescription.getSiblings();
         this.birthPlace = heroDescription.getBirthPlace();
         this.specialFeatures = heroDescription.getSpecialFeatures();
+        this.abilities = heroDescription.getAbilities();
+        this.skills = heroDescription.getSkills();
 
         return this;
     }

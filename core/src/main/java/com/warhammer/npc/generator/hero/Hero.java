@@ -13,5 +13,4 @@ public class Hero {
     private final MainCharacteristics mainCharacteristics;
     private final SecondaryCharacteristics secondaryCharacteristics;
 
-
 }

@@ -1,0 +1,94 @@
+new Ability(1L, "Artylerzysta", "przeład. broni palnej -akcja");
+new Ability(2L, "Bardzo silny", "+5k");
+new Ability(3L, "Bardzo szybki", "+1sz");
+new Ability(4L, "Bijatyka", "podczas bury +11ww +1 obr");
+new Ability(5L, "Błyskawiczne przeładowanie", "przeład. -akcja");
+new Ability(6L, "Błyskawiczny blok", "możliwość parowania przy ataku wielkrotnym");
+new Ability(7L, "Błyskotliwość", "+5int");
+new Ability(8L, "Brawura", "skok =zwykla akcja");
+new Ability(9L, "Broń naturalna", "pazury = bron jednoreczna");
+new Ability(10L, "Broń specjalna", "mozna uzywac tego typu broni");
+new Ability(11L, "Bystry wzrok", "+10 do spostrzegawczosci");
+new Ability(12L, "Charyzmatyczny", "+5ogd");
+new Ability(13L, "Chirurgia", "+10 do leczenia + mozliwosc leczenia b ciazkich ran");
+new Ability(14L, "Chodu!", "+1sz w czasie zagrożenia");
+new Ability(15L, "Czarnoksięstwo", "magia czarnoksięska");
+new Ability(16L, "Człowiek-guma", "+10 akrobatyka, +20 do wyzwalania się zwięzów");
+new Ability(17L, "Czuły słuch", "+20 nasłuchiwanie");
+new Ability(18L, "Dotyk mocy", "+20 ww przy testach dotyku");
+new Ability(19L, "Etykieta", "+ 10 plotkowanie i przekonywanie");
+new Ability(20L, "Geniusz arytmetyczny", "+10 hazard, nawigacja, spostrzegawczosc");
+new Ability(21L, "Grotołaz", "+10 skradanie i ukrywanie");
+new Ability(22L, "Groźny", "+10 zastraszanie, torturowanie");
+new Ability(23L, "Gusła", "magia prosta gułśa bez języka tajemnego");
+new Ability(24L, "Intrygant", "+10 przekonywanie i sw");
+new Ability(25L, "Krasnoludzki fach", "+10 gornictwo, kamieniarstwom platnerstwo itd");
+new Ability(26L, "Krasnomówstwo", "oddzialywanie na tlum");
+new Ability(27L, "Krzepki", "ciezki pancerz bez -sz");
+new Ability(28L, "Latanie", "lot");
+new Ability(29L, "Lewitacja", "nisko nad ziemia");
+new Ability(30L, "Łotrzyk", "+10 plotkowanie, przekonywanie półświatka");
+new Ability(31L, "Magia czarnoksięska", "");
+new Ability(32L, "Magia kapłańska", "");
+new Ability(33L, "Magia powrzechna", "");
+new Ability(34L, "Magia prosta", "");
+new Ability(35L, "Magia tajemna", "");
+new Ability(36L, "Medytacja", "+mag  do rzucania czarów");
+new Ability(37L, "Morderczy atak", "+1 do krytyka");
+new Ability(37L, "Morderczy atak", "+1 do krytyka");
+new Ability(38L, "Morderczy pocisk", "+1obrażenia");
+new Ability(39L, "Naśladowca", "+10 kuglarstwo, aktorstwo, błaznowanieitd.");
+new Ability(40L, "Niepokojący", "-100 do ww i us jak wróg nie zda testu");
+new Ability(41L, "Nieustraszony", "-1 st trudności do testów strachu");
+new Ability(42L, "Niezwykle odporny", "+5odp");
+new Ability(43L, "Obieżyświat", "+10 wiedzy i jezyjka");
+new Ability(44L, "Oburęczność", "brak -20 ww przy 2 broniach");
+new Ability(45L, "Odporność na Chaos", "+10sw vs chaos");
+new Ability(46L, "Odporność na choroby", "+10opd na choroby");
+new Ability(47L, "Odporność na magię", "+10 sw na magie");
+new Ability(48L, "Odporność na trucizny", "+10 dop na trucizny");
+new Ability(49L, "Odporność psychiczna", "choroba umysłu +8PO, Obłęd +14PO");
+new Ability(50L, "Odwaga", "+10sws przec zastraszaniu");
+new Ability(51L, "Ogłuszanie", "");
+new Ability(52L, "Opanowanie", "+5sw");
+new Ability(53L, "Ożywieniec", "");
+new Ability(54L, "Pancerz wiary", "brak ujemnych modyfikatorów do rzucania czarów w zbroi");
+new Ability(55L, "Poliglota", "+10 czytanie pisanie i języka");
+new Ability(56L, "Przemawianie", "oddzialywanie an grupe ludzi x10 ");
+new Ability(57L, "Przerażający", "");
+new Ability(58L, "Rozbrajanie", "");
+new Ability(59L, "Silny cios", "+1 obr bronia białą");
+new Ability(60L, "Straszny", "");
+new Ability(61L, "Strzał mierzony", "+20 us przy celowaniu");
+new Ability(62L, "Strzał precyzyjny", +1 obr z uzyciem broni zasięgowej"");
+new Ability(63L, "Strzał przebijający", "-1pz");
+new Ability(64L, "Strzelec wyborowy", "+5us");
+new Ability(65L, "Szał bojowy", "w nastepnej rundzie +10sw i k +1s ale -10 ww i int");
+new Ability(66L, "Szczęście", "+1ps");
+new Ability(67L, "Szósty zmysł", "");
+new Ability(68L, "Szybki refleks", "+5zr");
+new Ability(69L, "Szybkie wyciągnięcie", "uzycie przedmiotu jako akcja natychmiastowa");
+new Ability(70L, "Talent artystyczny", "+10 rzemioslo +20 wycena");
+new Ability(71L, "Twardziel", "+1zyw");
+new Ability(72L, "Ulicznik", "+10 skradnie i ukrywanie w miescie");
+new Ability(73L, "Urodzony wojownik", "+5ww");
+new Ability(74L, "Wędrowiec", "+10 skradanie i ukrywanie poza maistem");
+new Ability(75L, "Widzienie w ciemności", "30m tylko przy minimalnym oswietleniu");
+new Ability(76L, "Woltyżerka", "+10 do jezdziectwa itd");
+new Ability(77L, "Wyczucie kierunku", "+10 nawigacji");
+new Ability(78L, "Wykrywanie pułapek", "+10 spostrzegawczosci");
+new Ability(79L, "Wyostrzone zmysły", "+20 do WSZYSTKICH testow spostrzegawczosci");
+new Ability(80L, "Zapasy", "+10ww i k do uscisku i wyzwalania się ");
+new Ability(81L, "Zapiekła nienawiść", "+5ww p zielonoskorym");
+new Ability(82L, "Zmysł magii", "+10 splatani i wykrywanie");
+new Ability(83L, "Żyłka handlowa", "+10 targowanie i wycena");
+
+
+
+
+
+
+
+
+
+

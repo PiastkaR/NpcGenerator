@@ -1,0 +1,118 @@
+1L,"Pustelnik",	CharactersClass.SCHOLAR,	Race.HUMAN,	List.of(0,5,5,10,10,0,10,0),	List.of(0,2,0,0,0,0,0,0), List.of(Sztuka przetrwania, Przeszukiwanie, Skradanie się),List.of(Chodu, Twardziel, Odporność na trucizny, Wędrowiec,Odwaga)
+2L,Aptekarz,	CharactersClass.SCHOLAR	Race.HUMAN,Race.ELF,Race.HALFLING					
+3L,Uczeń kowala run,	CharactersClass.SCHOLAR	Race.DWARF					
+4L,Uczeń czarodzieja,	CharactersClass.SCHOLAR	Race.HUMAN, Race.ELF					
+5L,Burgher,	CharactersClass.SCHOLAR	Race.HUMAN					
+6L,Kartograf,	CharactersClass.SCHOLAR	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING					
+7L,Cenobite,	CharactersClass.SCHOLAR	Race.HUMAN					
+8L,Embalmer,	CharactersClass.SCHOLAR	Race.HUMAN, Race.HALFLING					
+9L,Envoy,	CharactersClass.SCHOLAR	Race.ELF					
+10L,HedgeWuzard	CharactersClass.SCHOLAR	Race.HUMAN,					
+11L,Hedgecraft Apprentice	CharactersClass.SCHOLAR	Race.HUMAN,					
+12L,Initiate 	CharactersClass.SCHOLAR	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+13L,Litigant	CharactersClass.SCHOLAR	Race.HUMAN, Race.HALFLING,					
+14L,Mediator	CharactersClass.SCHOLAR	Race.HUMAN,					
+15L,Noble	CharactersClass.SCHOLAR	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+16L,Runebearer	CharactersClass.SCHOLAR	Race.DWARF,					
+17L,Scribe	CharactersClass.SCHOLAR	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+18L,Seer 	CharactersClass.SCHOLAR	Race.HUMAN,					
+19L,Student 	CharactersClass.SCHOLAR	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+20L,Tradesman 	CharactersClass.SCHOLAR	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+21L,Wise Woman	CharactersClass.SCHOLAR	Race.HUMAN,					
+22L,Zealot	CharactersClass.SCHOLAR	Race.HUMAN,					
+23L,Zarządca	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING	5,5,5,0,0,10,5,5,10	0,2,0,0,0,0,0,0,	skórzana kurta, skórzany hełm, ubranie dobrej jakości, koń z siodłem i uprzężą	Czytanie i pisanie, nawigacja, jeździectwo, nauka (prawo), opieka nad zwierzętami, przekonywanie, spostrzegawczość, zastraszanie	etykieta, przemawianie,
+24L,Barber-Surgeon	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+25L,Bear Tamer	CharactersClass.COMMONER	Race.HUMAN,					
+26L,Boatman	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+27L,Bonepicker	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+28L,Camp Follower	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+29L,Charcoal-Burner	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+30L,Chimneysweep	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+31L,Dilettante	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+32L,Drover 	CharactersClass.COMMONER	Race.HUMAN,					
+33L,Dung Collector 	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+34L,Entertainer	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+35L,Ex-Convict 	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,Race.HALFLING,					
+36L,Exciseman	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+37L,Farmer 	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+38L,Ferryman 	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+39L,Fisherman 	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+40L,Freeholder 	CharactersClass.COMMONER	Race.HUMAN,					
+41L,Frogwife 	CharactersClass.COMMONER	Race.HUMAN,					
+42L,Horse Coper 	CharactersClass.COMMONER	Race.HUMAN,					
+43L,Jailer	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,					
+44L,Lamplighter 	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+45L,Miner 	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,					
+46L,Muleskinner 	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,Race.HALFLING,					
+47L,Newssheet Vendor	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+48L,Peasant 	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+49L,Penitent	CharactersClass.COMMONER	Race.HUMAN,					
+50L,Pilgrim	CharactersClass.COMMONER	Race.HUMAN,					
+51L,Rat Catcher	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,Race.HALFLING,					
+52L,Servant 	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,Race.HALFLING,					
+53L,Sewer Jack 	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,Race.HALFLING,					
+54L,Skald 	CharactersClass.COMMONER	Race.HUMAN,					
+55L,Slave 	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+56L,Stevedore 	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,					
+57L,Strigany Mystic	CharactersClass.COMMONER	Race.HUMAN,					
+58L,Temple Guardian 	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,Race.HALFLING,					
+59L,Toll Keeper 	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,Race.HALFLING,					
+60L,Valet 	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
+61L,"Podżegacz",	CharactersClass.CRIMINAL,	List.of(Race.HUMAN,Race.DWARF,Race.HALFLING),	5,5,0,0,5,10,0,10,	0,2,0,0,0,0,0,0,	List.of("skórzana kurta", "ubranie dobnrej jakości", "12 ulotek"),	List.of("Czytanie i pisanie", "plotkowanie", "nauka(prawo)", "przekonywanie", "spostrzegawczość", "ukrywanie się", "język bretoński", "język staroświatowy")	List.of("Chodu!","opanowanie", "przemawianie")
+62L,Ex-Convict	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+63L,Gambler	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+64L,Grave Robber	CharactersClass.CRIMINAL	Race.HUMAN, Race.HALFLING,					
+65L,Herrimault	CharactersClass.CRIMINAL	Race.HUMAN,					
+66L,Outlaw	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+67L,Protagonist 	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,					
+68L,Raconteur	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+69L,Rapscallion	CharactersClass.CRIMINAL	Race.HUMAN,Race.ELF,Race.HALFLING,					
+70L,Rogue	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+71L,Smuggler	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+72L,Thief	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+73L,Thug 	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+74L,Tomb Robber	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.HALFLING,					
+75L,Vagabond 	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+76L,Wrecker	CharactersClass.CRIMINAL	Race.HUMAN,					
+77L,"Ochroniarz,"	CharactersClass.WARRIOR,	List.of(Race.HUMAN,Race.DWARF,Race.ELF),	10,0,5,5,5,0,0,0.	1,3,0,0,0,0,0,0,	List.of("dwa topory do rzucania", "kastety","skórzana kurta", "puklerz"), List.of("leczenie", "spostrzegawczość", "unik", "zastraszanie"),	List.of("bardzo silny", "bijatyka", "BS(parująca"), "BS(rzucana)", "ogłuszanie", "szybkie wyciągniecie")
+78L,Bondsman 	CharactersClass.WARRIOR	Race.HUMAN,					
+79L,Cadet 	CharactersClass.WARRIOR	Race.HUMAN,					
+80L,Chekist	CharactersClass.WARRIOR	Race.HUMAN,					
+81L,Coachman	CharactersClass.WARRIOR	Race.HUMAN,Race.DWARF,Race.HALFLING,					
+82L,"Szermierz Estalijski",	CharactersClass.WARRIOR,	Race.HUMAN,	List.of(15,0,5,5,10,5,0,0),	List.of(1,2,0,0,0,0,0,0),	List.of("szpada", "ubranie najlepszej jakości", "perfumy"," misktura leczenia"),	List.of("Czytanie i pisanie", "nauka(anatomia)", "unik", "wiedza (Estalia)", "Język estalijski"),	List.of("szybki refleks", "BS (szermiercza)", "silny cios", "morderczy atak")
+83L,Grail Pilgrim	CharactersClass.WARRIOR	Race.HUMAN,					
+84L,Grave Warden 	CharactersClass.WARRIOR	Race.HUMAN, Race.HALFLING,					
+85L,Kislevite Kossar 	CharactersClass.WARRIOR	Race.HUMAN,					
+86L,Kithband Warrior 	CharactersClass.WARRIOR	Race.ELF,					
+87L,Knight Errant 	CharactersClass.WARRIOR	Race.HUMAN,					
+88L,Man-at-Arms 	CharactersClass.WARRIOR	Race.HUMAN,					
+89L,Marauder	CharactersClass.WARRIOR	Race.HUMAN,					
+90L,Marine	CharactersClass.WARRIOR	Race.HUMAN,Race.ELF,					
+91L,Mercenary	CharactersClass.WARRIOR	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
+92L,Militiaman 	CharactersClass.WARRIOR	Race.HUMAN,Race.DWARF,Race.HALFLING,					
+93L,Norse Berserker	CharactersClass.WARRIOR	Race.HUMAN,					
+94L,Pit Fighter 	CharactersClass.WARRIOR	Race.HUMAN,Race.DWARF,Race.ELF,					
+95L,Reaver	CharactersClass.WARRIOR	Race.HUMAN,					
+96L,Riverwarden	CharactersClass.WARRIOR	Race.HUMAN,Race.ELF,					
+97L,Roadwarden 	CharactersClass.WARRIOR	Race.HUMAN, Race.HALFLING,					
+98L,Seaman 	CharactersClass.WARRIOR	Race.HUMAN,Race.DWARF,Race.ELF,					
+99L,Shieldbreaker 	CharactersClass.WARRIOR	Race.DWARF,					
+100L,	"Soldier" 	CharactersClass.WARRIOR	Race.HUMAN,Race.DWARFRace.HALFLING					
+101L,	"Squire"	CharactersClass.WARRIOR	Race.HUMAN					
+102L,	"Streltsi"	CharactersClass.WARRIOR	Race.HUMAN					
+103L,	"Troll Slayer"	CharactersClass.WARRIOR	Race.DWARF					
+104L,	"Watchman" 	CharactersClass.WARRIOR	Race.HUMAN,Race.DWARF,Race.HALFLING					
+105L,	"Whaler"	CharactersClass.WARRIOR	Race.HUMAN					
+106L,	"Badlander" 	CharactersClass.RANGER	Race.HUMAN, Race.HALFLING					
+107L,	"Bounty Hunter" 	CharactersClass.RANGER	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING					
+108L,	"Carcassonne" Shepherd	CharactersClass.RANGER	Race.HUMAN					
+109L,	"Deepwatcher"	CharactersClass.RANGER	Race.HUMAN					
+110L,	"Fieldwarden"	CharactersClass.RANGER	Race.HALFLING					
+111L,	"Horned Hunter"	CharactersClass.RANGER	Race.HUMAN					
+112L,	"Hunter" 	CharactersClass.RANGER	Race.HUMAN					
+113L,	"Messenger" 	CharactersClass.RANGER	Race.HUMAN					
+114L,	"Outrider"	CharactersClass.RANGER	Race.HUMAN					
+115L,	"Steppes Nomad"	CharactersClass.RANGER	Race.HUMAN					
+116L,	"Swamp Skimmer" 	CharactersClass.RANGER	Race.HUMAN					
+117L,	"Swampaire"	CharactersClass.RANGER	Race.HUMAN					
+118L,	"Woodsman"	CharactersClass.RANGER	Race.HUMAN, Race.ELF					
