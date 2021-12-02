@@ -1,12 +1,18 @@
 package com.warhammer.npc.generator.data;
 
+import com.warhammer.npc.generator.hero.characteristics.MainCharacteristics;
+import com.warhammer.npc.generator.hero.characteristics.SecondaryCharacteristics;
+import com.warhammer.npc.generator.hero.description.CharactersClass;
 import com.warhammer.npc.generator.hero.description.Gender;
 import com.warhammer.npc.generator.hero.description.Race;
 import com.warhammer.npc.generator.hero.repository.*;
+import com.warhammer.npc.generator.hero.skills.Skill;
+import com.warhammer.npc.generator.model.Profession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -48,12 +54,18 @@ public class NameRunner implements CommandLineRunner {
 //        System.out.println("All male names: " + all);
 //        nameRepository.deleteAll(all);
 
-//        professionRepository.save(new Profession(1L,"Pustelnik",	CharactersClass.SCHOLAR,List.of(Race.HUMAN), new MainCharacteristics(0,5,5,10,10,0,10,0),	new SecondaryCharacteristics(0,2,0,0,0,0,0,0), Collections.emptyList(),List.of("Sztuka przetrwania", "Przeszukiwanie", "Skradanie się"), List.of("Chodu!", "Twardziel", "Odporność na trucizny", "Wędrowiec","Odwaga")));
-//        professionRepository.save(new Profession(82L,"Szermierz Estalijski",	CharactersClass.WARRIOR,	List.of(Race.HUMAN),	new MainCharacteristics(15,0,5,5,10,5,0,0),	new SecondaryCharacteristics(1,2,0,0,0,0,0,0),	List.of("Szpada", "ubranie najlepszej jakości", "perfumy"," misktura leczenia"),	List.of("Czytanie i pisanie", "Nauka(anatomia)", "Unik", "Wiedza (Estalia)", "Język Estalijski"),	List.of("Szybki refleks", "Broń specjalna (szermiercza)", "Silny cios", "Morderczy atak")));
-//        professionRepository.save(new Profession(77L,"Ochroniarz",CharactersClass.WARRIOR,List.of(Race.HUMAN,Race.DWARF,Race.ELF),	new MainCharacteristics(10,0,5,5,5,0,0,0),	new SecondaryCharacteristics(1,3,0,0,0,0,0,0),	List.of("Topór do rzucania", "Kastet","skórzana kurta", "Puklerz"), List.of("Leczenie", "Spostrzegawczość", "Unik", "Zastraszanie"),	List.of("Bardzo silny", "Bijatyka", "Broń specjalna(parująca)", "Broń specjalna(rzucana)", "Ogłuszanie", "Szybkie wyciągniecie")));
-//        professionRepository.save(new Profession(61L,"Podżegacz",CharactersClass.CRIMINAL,List.of(Race.HUMAN,Race.DWARF,Race.HALFLING),	new MainCharacteristics(5,5,0,0,5,10,0,10),	new SecondaryCharacteristics(0,2,0,0,0,0,0,0),	List.of("skórzana kurta", "ubranie dobnrej jakości", "12 ulotek"),	List.of("Czytanie i pisanie", "Plotkowanie", "Nauka(prawo)", "przekonywanie", "spostrzegawczość", "Ukrywanie się", "Język Bretoński", "Język Staroświatowy"),	List.of("Chodu!","Opanowanie", "Przemawianie")));
-//        professionRepository.save(new Profession(23L,"Zarządca",	CharactersClass.COMMONER,List.of(Race.HUMAN, Race.HALFLING),	new MainCharacteristics(5,5,5,0,0,10,5,5),   new SecondaryCharacteristics(0,2,0,0,0,0,0,0),	List.of("skórzana kurta", "skórzany hełm", "ubranie dobrej jakości", "koń z siodłem i uprzężą"), List.of("Czytanie i pisanie", "Nawigacja", "Jeździectwo", "Nauka (prawo)", "Opieka nad zwierzętami", "Przekonywanie", "Spostrzegawczość", "Zastraszanie"),List.of(	"Etykieta", "Przemawianie")));
+        professionRepository.save(new Profession(1L,"Pustelnik",	CharactersClass.SCHOLAR,List.of(Race.HUMAN), new MainCharacteristics(0,5,5,10,10,0,10,0),	new SecondaryCharacteristics(0,2,0,0,0,0,0,0), Collections.emptyList(),List.of("Sztuka przetrwania", "Przeszukiwanie", "Skradanie się"), List.of("Chodu!", "Twardziel", "Odporność na trucizny", "Wędrowiec","Odwaga")));
+        professionRepository.save(new Profession(82L,"Szermierz Estalijski",	CharactersClass.WARRIOR,	List.of(Race.HUMAN),	new MainCharacteristics(15,0,5,5,10,5,0,0),	new SecondaryCharacteristics(1,2,0,0,0,0,0,0),	List.of("Szpada", "ubranie najlepszej jakości", "perfumy"," misktura leczenia"),	List.of("Czytanie i pisanie", "Nauka(anatomia)", "Unik", "Wiedza (Estalia)", "Język Estalijski"),	List.of("Szybki refleks", "Broń specjalna (szermiercza)", "Silny cios", "Morderczy atak")));
+        professionRepository.save(new Profession(77L,"Ochroniarz",CharactersClass.WARRIOR,List.of(Race.HUMAN,Race.DWARF,Race.ELF),	new MainCharacteristics(10,0,5,5,5,0,0,0),	new SecondaryCharacteristics(1,3,0,0,0,0,0,0),	List.of("Topór do rzucania", "Kastet","skórzana kurta", "Puklerz"), List.of("Leczenie", "Spostrzegawczość", "Unik", "Zastraszanie"),	List.of("Bardzo silny", "Bijatyka", "Broń specjalna(parująca)", "Broń specjalna(rzucana)", "Ogłuszanie", "Szybkie wyciągniecie")));
+        professionRepository.save(new Profession(61L,"Podżegacz",CharactersClass.CRIMINAL,List.of(Race.HUMAN,Race.DWARF,Race.HALFLING),	new MainCharacteristics(5,5,0,0,5,10,0,10),	new SecondaryCharacteristics(0,2,0,0,0,0,0,0),	List.of("skórzana kurta", "ubranie dobnrej jakości", "12 ulotek"),	List.of("Czytanie i pisanie", "Plotkowanie", "Nauka(prawo)", "Przekonywanie", "Spostrzegawczość", "Ukrywanie się", "Język Bretoński", "Język Staroświatowy"),	List.of("Chodu!","Opanowanie", "Przemawianie")));
+        professionRepository.save(new Profession(23L,"Zarządca",	CharactersClass.COMMONER,List.of(Race.HUMAN, Race.HALFLING),	new MainCharacteristics(5,5,5,0,0,10,5,5),   new SecondaryCharacteristics(0,2,0,0,0,0,0,0),	List.of("skórzana kurta", "skórzany hełm", "ubranie dobrej jakości", "koń z siodłem i uprzężą"), List.of("Czytanie i pisanie", "Nawigacja", "Jeździectwo", "Nauka (prawo)", "Opieka nad zwierzętami", "Przekonywanie", "Spostrzegawczość", "Zastraszanie"),List.of(	"Etykieta", "Przemawianie")));
 //        weaponRepository.save(new Weapon(41L, "Topór do rzucania",40,"rzucana","S-2","8/-","akcja",Collections.EMPTY_LIST));
+
+       skillRepository.save(new Skill(20L, "Śledzenie","zr"));
+       skillRepository.save(new Skill(24L, "Gadanina","ogd"));
+       skillRepository.save(new Skill(19L, "Mocna głowa","odp"));
+       skillRepository.save(new Skill(46L, "Żeglarstwo","zr"));
+       skillRepository.save(new Skill(45L, "Język","int"));
 
 //        Iterable<Profession> all = professionRepository.findAll();
 //        System.out.println(all);

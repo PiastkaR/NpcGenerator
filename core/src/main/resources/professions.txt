@@ -58,7 +58,7 @@
 58L,Temple Guardian 	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,Race.HALFLING,					
 59L,Toll Keeper 	CharactersClass.COMMONER	Race.HUMAN,Race.DWARF,Race.HALFLING,					
 60L,Valet 	CharactersClass.COMMONER	Race.HUMAN, Race.HALFLING,					
-61L,"Podżegacz",	CharactersClass.CRIMINAL,	List.of(Race.HUMAN,Race.DWARF,Race.HALFLING),	5,5,0,0,5,10,0,10,	0,2,0,0,0,0,0,0,	List.of("skórzana kurta", "ubranie dobnrej jakości", "12 ulotek"),	List.of("Czytanie i pisanie", "plotkowanie", "nauka(prawo)", "przekonywanie", "spostrzegawczość", "ukrywanie się", "język bretoński", "język staroświatowy")	List.of("Chodu!","opanowanie", "przemawianie")
+61L,"Podżegacz",	CharactersClass.CRIMINAL,	List.of(Race.HUMAN,Race.DWARF,Race.HALFLING),	5,5,0,0,5,10,0,10,	0,2,0,0,0,0,0,0,	List.of("skórzana kurta", "ubranie dobnrej jakości", "12 ulotek"),	List.of("Czytanie i pisanie", "Plotkowanie", "Nauka(prawo)", "Przekonywanie", "Spostrzegawczość", "Ukrywanie się", "Język bretoński", "Język staroświatowy")	List.of("Chodu!","Opanowanie", "Przemawianie")
 62L,Ex-Convict	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
 63L,Gambler	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
 64L,Grave Robber	CharactersClass.CRIMINAL	Race.HUMAN, Race.HALFLING,					

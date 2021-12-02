@@ -76,18 +76,19 @@ public class ProfessionService {
         return editableAbilities;
     }
 
-    private List<Ability> getAbilities(List<String> abilitiesAsString, List<Ability> abilities) {
-        List<Ability> editableAbilities = new ArrayList<>();
-        abilitiesAsString.forEach(ability1 -> {
-            for (Ability ability2 : abilities) {
-                if(ability2.getName().equals(ability1))
-                {
-                    editableAbilities.add(ability2);
+    private List<Ability> getAbilities(List<String> abilitiesAsString, List<Ability> allabilities) {
+        long counter = 10000L;
+        List<Ability> abilitiesForProfession = new ArrayList<>();
+        for (String ability1 : abilitiesAsString) {
+            for (Ability ability2 : allabilities) {
+                if (ability1.contains(ability2.getName())) {
+                    abilitiesForProfession.add(new Ability(counter, ability1, ability2.getDescription()));
+                    counter++;
                 }
             }
-        });
+        }
 
-        return editableAbilities;
+        return abilitiesForProfession;
     }
 
     private List<Skill> mapSkillsForProfession(List<String> skillsAsString) {
@@ -100,16 +101,17 @@ public class ProfessionService {
         return editableSkills;
     }
 
-    private List<Skill> getSkills(List<String> abilitiesAsString, List<Skill> skills) {
+    private List<Skill> getSkills(List<String> skillsForProfession, List<Skill> allSkills) {
+        long counter = 10000L;
         List<Skill> editableAbilities = new ArrayList<>();
-        abilitiesAsString.forEach(skill1 -> {
-            for (Skill skill2 : skills) {
-                if(skill2.getName().equals(skill1))
-                {
-                    editableAbilities.add(skill2);
+        for (String skill1 : skillsForProfession) {
+            for (Skill skill2 : allSkills) {
+                if (skill1.contains(skill2.getName())) {
+                    editableAbilities.add(new Skill(counter, skill1, skill2.getDescription()));
+                    counter++;
                 }
             }
-        });
+        }
 
         return editableAbilities;
     }
