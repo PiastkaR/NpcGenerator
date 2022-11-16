@@ -7,6 +7,7 @@ import com.warhammer.npc.generator.hero.characteristics.MainCharacteristics;
 import com.warhammer.npc.generator.hero.characteristics.SecondaryCharacteristics;
 import com.warhammer.npc.generator.hero.description.Race;
 import com.warhammer.npc.generator.hero.skills.Skill;
+import com.warhammer.npc.generator.mechanics.DiceThrowGenerator;
 import com.warhammer.npc.generator.model.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -20,6 +21,8 @@ import java.util.stream.Collectors;
 @Service
 @RequiredArgsConstructor
 public class HeroService {
+
+    private final DiceThrowGenerator diceThrowGenerator;
 
     static private final List<BasicSkill> basicSkills = Arrays.asList(
             new BasicSkill("Charakteryzacja", 0),
@@ -60,14 +63,26 @@ public class HeroService {
         return model;
     }
 
+    public Model getMoney(Model model) {
+        int goldCrowns = diceThrowGenerator.k10Throw();
+        int silver = diceThrowGenerator.k10Throw();
+        int penses = diceThrowGenerator.k100Throw();
+
+        model.addAttribute("goldCrowns", goldCrowns);
+        model.addAttribute("silver", silver);
+        model.addAttribute("penses", penses);
+
+        return model;
+    }
+
     public Model assignAbilitiesNames(List<Ability> abilities, Model model) {
         int counter = 0;
         for (Ability ability : abilities) {
-                ability.getName();
-                ability.getDescription();
-                model.addAttribute("abilityName" + counter, ability.getName());
-                model.addAttribute("abilityDescription" + counter, ability.getDescription());
-                counter++;
+            ability.getName();
+            ability.getDescription();
+            model.addAttribute("abilityName" + counter, ability.getName());
+            model.addAttribute("abilityDescription" + counter, ability.getDescription());
+            counter++;
 
         }
 

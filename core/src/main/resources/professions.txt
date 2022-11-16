@@ -7,7 +7,7 @@
 7L,Cenobite,	CharactersClass.SCHOLAR	Race.HUMAN					
 8L,Embalmer,	CharactersClass.SCHOLAR	Race.HUMAN, Race.HALFLING					
 9L,Envoy,	CharactersClass.SCHOLAR	Race.ELF					
-10L,HedgeWuzard	CharactersClass.SCHOLAR	Race.HUMAN,					
+10L,HedgeWizard	CharactersClass.SCHOLAR	Race.HUMAN,
 11L,Hedgecraft Apprentice	CharactersClass.SCHOLAR	Race.HUMAN,					
 12L,Initiate 	CharactersClass.SCHOLAR	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
 13L,Litigant	CharactersClass.SCHOLAR	Race.HUMAN, Race.HALFLING,					
@@ -74,7 +74,7 @@
 74L,Tomb Robber	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.HALFLING,					
 75L,Vagabond 	CharactersClass.CRIMINAL	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING,					
 76L,Wrecker	CharactersClass.CRIMINAL	Race.HUMAN,					
-77L,"Ochroniarz,"	CharactersClass.WARRIOR,	List.of(Race.HUMAN,Race.DWARF,Race.ELF),	10,0,5,5,5,0,0,0.	1,3,0,0,0,0,0,0,	List.of("dwa topory do rzucania", "kastety","skórzana kurta", "puklerz"), List.of("leczenie", "spostrzegawczość", "unik", "zastraszanie"),	List.of("bardzo silny", "bijatyka", "BS(parująca"), "BS(rzucana)", "ogłuszanie", "szybkie wyciągniecie")
+77L,"Ochroniarz"	CharactersClass.WARRIOR,	List.of(Race.HUMAN,Race.DWARF,Race.ELF),	10,0,5,5,5,0,0,0.	1,3,0,0,0,0,0,0,	List.of("dwa topory do rzucania", "kastety","skórzana kurta", "puklerz"), List.of("leczenie", "spostrzegawczość", "unik", "zastraszanie"),	List.of("bardzo silny", "bijatyka", "BS(parująca"), "BS(rzucana)", "ogłuszanie", "szybkie wyciągniecie")
 78L,Bondsman 	CharactersClass.WARRIOR	Race.HUMAN,					
 79L,Cadet 	CharactersClass.WARRIOR	Race.HUMAN,					
 80L,Chekist	CharactersClass.WARRIOR	Race.HUMAN,					
@@ -105,7 +105,7 @@
 105L,	"Whaler"	CharactersClass.WARRIOR	Race.HUMAN					
 106L,	"Badlander" 	CharactersClass.RANGER	Race.HUMAN, Race.HALFLING					
 107L,	"Bounty Hunter" 	CharactersClass.RANGER	Race.HUMAN,Race.DWARF,Race.ELF,Race.HALFLING					
-108L,	"Carcassonne" Shepherd	CharactersClass.RANGER	Race.HUMAN					
+108L,	"Carcassonne Shepherd"	CharactersClass.RANGER	Race.HUMAN
 109L,	"Deepwatcher"	CharactersClass.RANGER	Race.HUMAN					
 110L,	"Fieldwarden"	CharactersClass.RANGER	Race.HALFLING					
 111L,	"Horned Hunter"	CharactersClass.RANGER	Race.HUMAN					
@@ -116,3 +116,61 @@
 116L,	"Swamp Skimmer" 	CharactersClass.RANGER	Race.HUMAN					
 117L,	"Swampaire"	CharactersClass.RANGER	Race.HUMAN					
 118L,	"Woodsman"	CharactersClass.RANGER	Race.HUMAN, Race.ELF					
+
+
+   3;
+        ;
+        5;0,2,0,0,0,0,0,0
+        6;0,2,0,0,0,0,0,0
+       ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;1,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        10,0,5,5,10,5,5,0;0,2,0,0,1,0,0,0
+        5,5,10,5,0,5,5,0;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,1,0,0
+        10,0,0,0,10,10,10,5;0,2,0,0,0,0,0,0
+        5,5,0,0,10,5,5,10;0,2,0,0,0,0,0,0
+        kozak k 10,10,0,10,0,0,10,0;0,2,0,0,0,0,0,0
+
+        10,0,10,0,5,0,10,0;0,3,0,0,0,0,0,0
+        0,15,0,5,10,5,0,0;0,3,0,0,0,0,0,0
+        5,10,5,0,10,0,5,0;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;1,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;1,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+       ,0;0,2,0,0,0,0,0,0
+        posłaniec5,5,0,5,10,5,5,0;0,2,0,0,0,0,0,0
+        5,5,0,0,10,10,0,10;0,2,0,0,0,0,0,0
+
+        ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        0;1,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+       ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;0,3,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        ;1,2,0,0,0,0,0,0
+        ;0,2,0,0,0,1,0,0
+        ;0,2,0,0,0,0,0,0
+        ;0,2,0,0,0,0,0,0
+        5,5,0,0,10,10,5,0;0,2,0,0,0,0,0,0
+        5,10,0,0,10,0,5,5;0,2,0,0,0,0,0,0
+        10,0,5,5,5,0,10,0;1,3,0,0,0,0,0,0
+        5,5,,0,0,15,5,0,10;0,2,0,0,0,0,0,0
+        0,0,0,0,10,10,5,10;0,2,0,0,0,0,0,0
+        10,5,10,0,10,0,0,0;1,2,0,0,0,0,0,0
+        10,10,0,0,10,0,5,0,;1,2,0,0,0,0,0,0
+        10,101,0,0,5,0,5,0;1,3,0,0,0,0,0,0
